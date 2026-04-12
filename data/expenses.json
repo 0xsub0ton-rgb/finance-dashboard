@@ -1,0 +1,289 @@
+{
+  "month": "Февраль 2026",
+  "currency": {
+    "usd_to_vnd": 26613,
+    "converted": [
+      {
+        "date": "2026-02-01",
+        "usd": 100,
+        "vnd": 2628600
+      },
+      {
+        "date": "2026-02-04",
+        "usd": 400,
+        "vnd": 10645200
+      }
+    ],
+    "total_usd": 500,
+    "total_vnd": 13273800
+  },
+  "expenses": [
+    {
+      "date": "2026-02-01",
+      "items": [
+        {
+          "category": "water",
+          "icon": "💧",
+          "name": "Вода",
+          "amount": 10000,
+          "comment": ""
+        },
+        {
+          "category": "food",
+          "icon": "🍽️",
+          "name": "Еда",
+          "amount": 123000,
+          "comment": "34к+16к+35к+38к"
+        },
+        {
+          "category": "energy",
+          "icon": "🥤",
+          "name": "Энергетики",
+          "amount": 62000,
+          "comment": "29к+20к+13к"
+        },
+        {
+          "category": "coffee",
+          "icon": "☕",
+          "name": "Кофейня",
+          "amount": 110000,
+          "comment": ""
+        },
+        {
+          "category": "habits",
+          "icon": "🚬",
+          "name": "Сиги+алко",
+          "amount": 61000,
+          "comment": "19к+14к+28к"
+        },
+        {
+          "category": "entertainment",
+          "icon": "🎭",
+          "name": "Развлечения",
+          "amount": 50000,
+          "comment": ""
+        },
+        {
+          "category": "transport",
+          "icon": "🚕",
+          "name": "Такси",
+          "amount": 14000,
+          "comment": ""
+        }
+      ],
+      "total": 430000
+    },
+    {
+      "date": "2026-02-02",
+      "items": [
+        {
+          "category": "food",
+          "icon": "🍽️",
+          "name": "Еда",
+          "amount": 42000,
+          "comment": "17к+25к"
+        },
+        {
+          "category": "energy",
+          "icon": "🥤",
+          "name": "Энергетики",
+          "amount": 37000,
+          "comment": ""
+        },
+        {
+          "category": "water",
+          "icon": "💧",
+          "name": "Вода",
+          "amount": 25000,
+          "comment": ""
+        },
+        {
+          "category": "habits",
+          "icon": "🚬",
+          "name": "Сиги+алко",
+          "amount": 72000,
+          "comment": "14к+28к+30к"
+        },
+        {
+          "category": "coffee",
+          "icon": "☕",
+          "name": "Кофейня",
+          "amount": 50000,
+          "comment": ""
+        }
+      ],
+      "total": 226000
+    },
+    {
+      "date": "2026-02-03",
+      "items": [
+        {
+          "category": "food",
+          "icon": "🍽️",
+          "name": "Еда",
+          "amount": 55000,
+          "comment": "34к+21к"
+        },
+        {
+          "category": "energy",
+          "icon": "🥤",
+          "name": "Энергетики",
+          "amount": 33000,
+          "comment": ""
+        },
+        {
+          "category": "habits",
+          "icon": "🚬",
+          "name": "Стаф",
+          "amount": 70000,
+          "comment": ""
+        },
+        {
+          "category": "transport",
+          "icon": "🚕",
+          "name": "Такси",
+          "amount": 15000,
+          "comment": ""
+        }
+      ],
+      "total": 173000
+    },
+    {
+      "date": "2026-02-04",
+      "items": [
+        {
+          "category": "habits",
+          "icon": "🚬",
+          "name": "Сиги",
+          "amount": 15000,
+          "comment": ""
+        },
+        {
+          "category": "food",
+          "icon": "🍽️",
+          "name": "Еда",
+          "amount": 34000,
+          "comment": ""
+        },
+        {
+          "category": "energy",
+          "icon": "🥤",
+          "name": "Энергетик",
+          "amount": 33000,
+          "comment": ""
+        },
+        {
+          "category": "habits",
+          "icon": "🚬",
+          "name": "Стаф",
+          "amount": 292000,
+          "comment": ""
+        },
+        {
+          "category": "coffee",
+          "icon": "☕",
+          "name": "Кофейня",
+          "amount": 50000,
+          "comment": ""
+        },
+        {
+          "category": "habits",
+          "icon": "🚬",
+          "name": "Алко",
+          "amount": 56000,
+          "comment": ""
+        },
+        {
+          "category": "water",
+          "icon": "💧",
+          "name": "Вода",
+          "amount": 25000,
+          "comment": ""
+        }
+      ],
+      "total": 505000
+    }
+  ],
+  "categories": {
+    "food": {
+      "icon": "🍽️",
+      "name": "Еда",
+      "color": "#FF6384"
+    },
+    "coffee": {
+      "icon": "☕",
+      "name": "Кофе/кафе",
+      "color": "#8B4513"
+    },
+    "energy": {
+      "icon": "🥤",
+      "name": "Энергетики",
+      "color": "#36A2EB"
+    },
+    "habits": {
+      "icon": "🚬",
+      "name": "Вредные привычки",
+      "color": "#9966FF"
+    },
+    "entertainment": {
+      "icon": "🎭",
+      "name": "Развлечения",
+      "color": "#FF9F40"
+    },
+    "transport": {
+      "icon": "🚕",
+      "name": "Транспорт",
+      "color": "#FFCE56"
+    },
+    "water": {
+      "icon": "💧",
+      "name": "Вода",
+      "color": "#4BC0C0"
+    },
+    "rent": {
+      "icon": "🏠",
+      "name": "Аренда",
+      "color": "#E7E9ED"
+    },
+    "health": {
+      "icon": "❤️",
+      "name": "Здоровье",
+      "color": "#FF6B6B"
+    },
+    "gifts": {
+      "icon": "💝",
+      "name": "Подарки",
+      "color": "#C9CBCF"
+    },
+    "subscriptions": {
+      "icon": "📱",
+      "name": "Подписки",
+      "color": "#7C4DFF"
+    },
+    "laundry": {
+      "icon": "🧺",
+      "name": "Стирка/быт",
+      "color": "#00BCD4"
+    },
+    "haircut": {
+      "icon": "💇",
+      "name": "Стрижка",
+      "color": "#795548"
+    },
+    "visa": {
+      "icon": "🛂",
+      "name": "Виза-ран",
+      "color": "#607D8B"
+    },
+    "massage": {
+      "icon": "💆",
+      "name": "Массаж",
+      "color": "#E91E63"
+    }
+  },
+  "income": {
+    "monthly": 1000,
+    "currency": "USD"
+  },
+  "lastUpdated": "2026-02-05"
+}

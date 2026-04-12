@@ -1,0 +1,235 @@
+{
+    "month": "Январь 2026",
+    "currency": {
+        "usd_to_vnd": 26773,
+        "converted": [
+            {
+                "date": "2026-01-01",
+                "usd": 540,
+                "vnd": 14548680
+            },
+            {
+                "date": "2026-01-10",
+                "usd": 100,
+                "vnd": 2681600
+            },
+            {
+                "date": "2026-01-15",
+                "usd": 20,
+                "vnd": 530000
+            },
+            {
+                "date": "2026-01-20",
+                "usd": 270,
+                "vnd": 7139070
+            }
+        ],
+        "total_usd": 930,
+        "total_vnd": 24899350
+    },
+    "expenses": [
+        {
+            "date": "2026-01-31",
+            "items": [
+                {
+                    "category": "rent",
+                    "icon": "🏠",
+                    "name": "Аренда квартиры",
+                    "amount": 8017000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Вредные привычки",
+                    "amount": 7242000,
+                    "comment": ""
+                },
+                {
+                    "category": "insurance",
+                    "icon": "🛡️",
+                    "name": "Страховка",
+                    "amount": 3582189,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 2977000,
+                    "comment": ""
+                },
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофе/кафе",
+                    "amount": 1425000,
+                    "comment": ""
+                },
+                {
+                    "category": "massage",
+                    "icon": "💆",
+                    "name": "Массаж",
+                    "amount": 805000,
+                    "comment": ""
+                },
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Энергетики/Напитки",
+                    "amount": 738000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Транспорт",
+                    "amount": 497000,
+                    "comment": ""
+                },
+                {
+                    "category": "communication",
+                    "icon": "📞",
+                    "name": "Связь",
+                    "amount": 405000,
+                    "comment": ""
+                },
+                {
+                    "category": "gifts",
+                    "icon": "💝",
+                    "name": "Подарки",
+                    "amount": 345000,
+                    "comment": ""
+                },
+                {
+                    "category": "water",
+                    "icon": "💧",
+                    "name": "Вода",
+                    "amount": 225000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Быт/Стирка",
+                    "amount": 367000,
+                    "comment": "Быт: 214к, Стирка: 153к"
+                },
+                {
+                    "category": "health",
+                    "icon": "❤️",
+                    "name": "Здоровье/Лекарства",
+                    "amount": 208000,
+                    "comment": ""
+                },
+                {
+                    "category": "subscriptions",
+                    "icon": "📱",
+                    "name": "Подписки",
+                    "amount": 140000,
+                    "comment": ""
+                },
+                {
+                    "category": "haircut",
+                    "icon": "💇",
+                    "name": "Стрижка",
+                    "amount": 60000,
+                    "comment": ""
+                }
+            ],
+            "total": 27033189
+        }
+    ],
+    "categories": {
+        "rent": {
+            "icon": "🏠",
+            "name": "Аренда",
+            "color": "#E7E9ED"
+        },
+        "habits": {
+            "icon": "🚬",
+            "name": "Вредные привычки",
+            "color": "#9966FF"
+        },
+        "insurance": {
+            "icon": "🛡️",
+            "name": "Страховка",
+            "color": "#009688"
+        },
+        "food": {
+            "icon": "🍽️",
+            "name": "Еда",
+            "color": "#FF6384"
+        },
+        "coffee": {
+            "icon": "☕",
+            "name": "Кофе/кафе",
+            "color": "#8B4513"
+        },
+        "massage": {
+            "icon": "💆",
+            "name": "Массаж",
+            "color": "#E91E63"
+        },
+        "energy": {
+            "icon": "🥤",
+            "name": "Энергетики",
+            "color": "#36A2EB"
+        },
+        "transport": {
+            "icon": "🚕",
+            "name": "Транспорт",
+            "color": "#FFCE56"
+        },
+        "communication": {
+            "icon": "📞",
+            "name": "Связь",
+            "color": "#3F51B5"
+        },
+        "gifts": {
+            "icon": "💝",
+            "name": "Подарки",
+            "color": "#C9CBCF"
+        },
+        "water": {
+            "icon": "💧",
+            "name": "Вода",
+            "color": "#4BC0C0"
+        },
+        "laundry": {
+            "icon": "🧺",
+            "name": "Стирка/быт",
+            "color": "#00BCD4"
+        },
+        "health": {
+            "icon": "❤️",
+            "name": "Здоровье",
+            "color": "#FF6B6B"
+        },
+        "subscriptions": {
+            "icon": "📱",
+            "name": "Подписки",
+            "color": "#7C4DFF"
+        },
+        "haircut": {
+            "icon": "💇",
+            "name": "Стрижка",
+            "color": "#795548"
+        },
+        "visa": {
+            "icon": "🛂",
+            "name": "Виза-ран",
+            "color": "#607D8B"
+        },
+        "entertainment": {
+            "icon": "🎭",
+            "name": "Развлечения",
+            "color": "#FF9F40"
+        }
+    },
+    "income": {
+        "monthly": 1300,
+        "currency": "USD"
+    },
+    "lastUpdated": "2026-02-02"
+}
