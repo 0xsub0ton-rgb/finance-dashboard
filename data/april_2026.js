@@ -239,6 +239,24 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 20000, "comment": "" }
             ],
             "total": 497000
+        },
+        {
+            "date": "2026-04-13",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 20000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 7000, "comment": "" },
+                { "category": "travel", "icon": "✈️", "name": "Путешествия/Отдых", "amount": 626000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 30000, "comment": "" },
+                { "category": "tea", "icon": "🍵", "name": "Чай", "amount": 332000, "comment": "" },
+                { "category": "wishes", "icon": "✨", "name": "Кубики", "amount": 306000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 111000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 29000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 30000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" }
+            ],
+            "total": 1528000
         }
     ],
     "categories": {
@@ -267,8 +285,9 @@ MONTHS_DATA["2026-04"] = {
         "wishes": { "icon": "✨", "name": "Желания", "color": "#E040FB" },
         "tea": { "icon": "🍵", "name": "Чай", "color": "#4CAF50" },
         "mobile": { "icon": "📞", "name": "Мобильная связь", "color": "#78909C" },
-        "events": { "icon": "🎪", "name": "Ивенты", "color": "#FF4081" }
+        "events": { "icon": "🎪", "name": "Ивенты", "color": "#FF4081" },
+        "travel": { "icon": "✈️", "name": "Путешествия", "color": "#26C6DA" }
     },
     "income": { "monthly": 160, "currency": "USD", "additional_vnd": 500000 },
-    "lastUpdated": "2026-04-12"
+    "lastUpdated": "2026-04-13"
 };
