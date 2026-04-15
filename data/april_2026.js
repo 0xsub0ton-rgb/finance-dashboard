@@ -257,6 +257,23 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" }
             ],
             "total": 1528000
+        },
+        {
+            "date": "2026-04-14",
+            "items": [
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 19000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 70000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 151214, "comment": "$5.57" },
+                { "category": "insurance", "icon": "🛡️", "name": "Страховка", "amount": 3800720, "comment": "$140" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "ceremony", "icon": "🕯️", "name": "Благовония", "amount": 75000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 32000, "comment": "" }
+            ],
+            "total": 4255934
         }
     ],
     "categories": {
@@ -288,6 +305,6 @@ MONTHS_DATA["2026-04"] = {
         "events": { "icon": "🎪", "name": "Ивенты", "color": "#FF4081" },
         "travel": { "icon": "✈️", "name": "Путешествия", "color": "#26C6DA" }
     },
-    "income": { "monthly": 160, "currency": "USD", "additional_vnd": 500000 },
-    "lastUpdated": "2026-04-13"
+    "income": { "monthly": 223.75, "currency": "USD", "additional_vnd": 500000 },
+    "lastUpdated": "2026-04-14"
 };
