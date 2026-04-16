@@ -7,10 +7,11 @@ MONTHS_DATA["2026-04"] = {
     "currency": {
         "usd_to_vnd": 27148,
         "converted": [
-            { "date": "2026-04-07", "usd": 450, "vnd": 12194550 }
+            { "date": "2026-04-07", "usd": 450, "vnd": 12194550 },
+            { "date": "2026-04-15", "usd": 60, "vnd": 1604820 }
         ],
-        "total_usd": 450,
-        "total_vnd": 12194550
+        "total_usd": 510,
+        "total_vnd": 13799370
     },
     "expenses": [
         {
@@ -274,6 +275,23 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 32000, "comment": "" }
             ],
             "total": 4255934
+        },
+        {
+            "date": "2026-04-15",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 30000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 45000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 20000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 40000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 19000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 16000, "comment": "" }
+            ],
+            "total": 242000
         }
     ],
     "categories": {
@@ -306,5 +324,5 @@ MONTHS_DATA["2026-04"] = {
         "travel": { "icon": "✈️", "name": "Путешествия", "color": "#26C6DA" }
     },
     "income": { "monthly": 223.75, "currency": "USD", "additional_vnd": 500000 },
-    "lastUpdated": "2026-04-14"
+    "lastUpdated": "2026-04-15"
 };
