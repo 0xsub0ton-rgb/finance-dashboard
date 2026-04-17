@@ -229,7 +229,7 @@ class ExpenseDashboard {
 
     getFilteredDailyTotal(day) {
         return day.items
-            .filter(item => !this.fixedCategories.includes(item.category))
+            .filter(item => !this.fixedCategories.includes(item.category) && !item.oneTime)
             .reduce((sum, item) => sum + item.amount, 0);
     }
 
