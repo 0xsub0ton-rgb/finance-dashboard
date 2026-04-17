@@ -292,6 +292,28 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 16000, "comment": "" }
             ],
             "total": 242000
+        },
+        {
+            "date": "2026-04-16",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 19000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 13000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 30000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 45000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 12000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 31000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 10000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 37000, "comment": "" }
+            ],
+            "total": 336000
         }
     ],
     "categories": {
@@ -324,5 +346,5 @@ MONTHS_DATA["2026-04"] = {
         "travel": { "icon": "✈️", "name": "Путешествия", "color": "#26C6DA" }
     },
     "income": { "monthly": 223.75, "currency": "USD", "additional_vnd": 500000 },
-    "lastUpdated": "2026-04-15"
+    "lastUpdated": "2026-04-16"
 };
