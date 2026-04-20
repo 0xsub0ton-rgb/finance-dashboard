@@ -357,6 +357,20 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 21000, "comment": "" }
             ],
             "total": 1559000
+        },
+        {
+            "date": "2026-04-19",
+            "items": [
+                { "category": "travel", "icon": "✈️", "name": "Путешествие", "amount": 220000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 20000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "ceremony", "icon": "🕯️", "name": "Церемония", "amount": 250000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 8000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 16000, "comment": "" }
+            ],
+            "total": 561000
         }
     ],
     "categories": {
@@ -391,5 +405,5 @@ MONTHS_DATA["2026-04"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" }
     },
     "income": { "monthly": 1002.75, "currency": "USD", "additional_vnd": 500000 },
-    "lastUpdated": "2026-04-18"
+    "lastUpdated": "2026-04-19"
 };
