@@ -9,10 +9,11 @@ MONTHS_DATA["2026-04"] = {
         "converted": [
             { "date": "2026-04-07", "usd": 450, "vnd": 12194550 },
             { "date": "2026-04-15", "usd": 60, "vnd": 1604820 },
-            { "date": "2026-04-17", "usd": 429, "vnd": 11442717 }
+            { "date": "2026-04-17", "usd": 429, "vnd": 11442717 },
+            { "date": "2026-04-21", "usd": 100, "vnd": 2657300 }
         ],
-        "total_usd": 939,
-        "total_vnd": 25242087
+        "total_usd": 1039,
+        "total_vnd": 27899387
     },
     "expenses": [
         {
@@ -388,6 +389,23 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 11000, "comment": "" }
             ],
             "total": 231000
+        },
+        {
+            "date": "2026-04-21",
+            "items": [
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21000, "comment": "" },
+                { "category": "clothing", "icon": "👟", "name": "Спорт. одежда", "amount": 71000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15000, "comment": "" },
+                { "category": "mushrooms", "icon": "🍄", "name": "Грибы", "amount": 1288791, "comment": "$48.5" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 43000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 16000, "comment": "" }
+            ],
+            "total": 1556791
         }
     ],
     "categories": {
@@ -421,6 +439,6 @@ MONTHS_DATA["2026-04"] = {
         "repair": { "icon": "🔧", "name": "Ремонт", "color": "#FF7043" },
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" }
     },
-    "income": { "monthly": 1002.75, "currency": "USD", "additional_vnd": 500000 },
-    "lastUpdated": "2026-04-20"
+    "income": { "monthly": 2517.02, "currency": "USD", "additional_vnd": 500000 },
+    "lastUpdated": "2026-04-21"
 };
