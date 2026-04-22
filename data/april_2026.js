@@ -406,6 +406,26 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 16000, "comment": "" }
             ],
             "total": 1556791
+        },
+        {
+            "date": "2026-04-22",
+            "items": [
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 60000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 10000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" },
+                { "category": "health", "icon": "❤️", "name": "Здоровье", "amount": 5000, "comment": "" },
+                { "category": "water", "icon": "💧", "name": "Вода", "amount": 20000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 9000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 40000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21000, "comment": "" }
+            ],
+            "total": 311000
         }
     ],
     "categories": {
@@ -440,5 +460,5 @@ MONTHS_DATA["2026-04"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" }
     },
     "income": { "monthly": 2517.02, "currency": "USD", "additional_vnd": 500000 },
-    "lastUpdated": "2026-04-21"
+    "lastUpdated": "2026-04-22"
 };
