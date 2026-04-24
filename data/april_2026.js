@@ -449,6 +449,26 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 12000, "comment": "" }
             ],
             "total": 2041000
+        },
+        {
+            "date": "2026-04-24",
+            "items": [
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 32000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 14000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 40000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "water", "icon": "💧", "name": "Вода", "amount": 6000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 22000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 45000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 37000, "comment": "" }
+            ],
+            "total": 339000
         }
     ],
     "categories": {
@@ -483,5 +503,5 @@ MONTHS_DATA["2026-04"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" }
     },
     "income": { "monthly": 2517.02, "currency": "USD", "additional_vnd": 500000 },
-    "lastUpdated": "2026-04-23"
+    "lastUpdated": "2026-04-24"
 };
