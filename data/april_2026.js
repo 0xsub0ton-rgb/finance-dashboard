@@ -435,7 +435,7 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 11000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" },
-                { "category": "clothing", "icon": "👟", "name": "Одежда", "amount": 1475000, "comment": "" },
+                { "category": "clothing", "icon": "👟", "name": "Одежда", "amount": 1475000, "comment": "", "oneTime": true },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 9000, "comment": "" },
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 12000, "comment": "" },
