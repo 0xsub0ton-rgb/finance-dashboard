@@ -469,6 +469,25 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 37000, "comment": "" }
             ],
             "total": 339000
+        },
+        {
+            "date": "2026-04-25",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 18000, "comment": "" },
+                { "category": "water", "icon": "💧", "name": "Вода", "amount": 10000, "comment": "" },
+                { "category": "clothing", "icon": "👟", "name": "Шлем", "amount": 495000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 18000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 30000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 5000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 9000, "comment": "" },
+                { "category": "debt", "icon": "💸", "name": "Долг Диме", "amount": 200000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 50000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 52000, "comment": "" }
+            ],
+            "total": 927000
         }
     ],
     "categories": {
@@ -500,8 +519,9 @@ MONTHS_DATA["2026-04"] = {
         "events": { "icon": "🎪", "name": "Ивенты", "color": "#FF4081" },
         "travel": { "icon": "✈️", "name": "Путешествия", "color": "#26C6DA" },
         "repair": { "icon": "🔧", "name": "Ремонт", "color": "#FF7043" },
-        "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" }
+        "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
+        "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 2517.02, "currency": "USD", "additional_vnd": 500000 },
-    "lastUpdated": "2026-04-24"
+    "lastUpdated": "2026-04-25"
 };
