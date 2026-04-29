@@ -546,7 +546,7 @@ MONTHS_DATA["2026-04"] = {
             "items": [
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
                 { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 34000, "comment": "" },
-                { "category": "transport", "icon": "🚕", "name": "Аренда байка", "amount": 2100000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Аренда байка", "amount": 2100000, "comment": "", "oneTime": true },
                 { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 11500, "comment": "" },
                 { "category": "health", "icon": "❤️", "name": "Спорт", "amount": 41000, "comment": "" },
                 { "category": "visa", "icon": "🛂", "name": "Виза-ран", "amount": 3400000, "comment": "" },
@@ -563,9 +563,10 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 25000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 17500, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 73200, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 9400, "comment": "" }
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 9400, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" }
             ],
-            "total": 6090200
+            "total": 6105200
         }
     ],
     "categories": {

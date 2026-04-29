@@ -7,7 +7,7 @@ class ExpenseDashboard {
         this.data = null;
         this.charts = {};
         this.currentCurrency = localStorage.getItem('dashboard_currency') || 'VND';
-        this.fixedCategories = ['rent', 'visa', 'health', 'insurance', 'savings'];
+        this.fixedCategories = ['rent', 'visa', 'insurance', 'savings'];
 
         // Multi-month: default to last month in registry (latest)
         this.currentMonthIndex = (typeof MONTHS_REGISTRY !== 'undefined')
