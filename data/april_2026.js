@@ -10,10 +10,11 @@ MONTHS_DATA["2026-04"] = {
             { "date": "2026-04-07", "usd": 450, "vnd": 12194550 },
             { "date": "2026-04-15", "usd": 60, "vnd": 1604820 },
             { "date": "2026-04-17", "usd": 429, "vnd": 11442717 },
-            { "date": "2026-04-21", "usd": 100, "vnd": 2657300 }
+            { "date": "2026-04-21", "usd": 100, "vnd": 2657300 },
+            { "date": "2026-04-29", "usd": 250, "vnd": 6681250 }
         ],
-        "total_usd": 1039,
-        "total_vnd": 27899387
+        "total_usd": 1289,
+        "total_vnd": 34580637
     },
     "expenses": [
         {
@@ -539,6 +540,32 @@ MONTHS_DATA["2026-04"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 25000, "comment": "" }
             ],
             "total": 246000
+        },
+        {
+            "date": "2026-04-29",
+            "items": [
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 34000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Аренда байка", "amount": 2100000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 11500, "comment": "" },
+                { "category": "health", "icon": "❤️", "name": "Спорт", "amount": 41000, "comment": "" },
+                { "category": "visa", "icon": "🛂", "name": "Виза-ран", "amount": 3400000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 8800, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 11300, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 11500, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 32000, "comment": "" },
+                { "category": "haircut", "icon": "💇", "name": "Стрижка", "amount": 100000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 119000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 10000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 25000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 17500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 73200, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 9400, "comment": "" }
+            ],
+            "total": 6090200
         }
     ],
     "categories": {
@@ -574,5 +601,5 @@ MONTHS_DATA["2026-04"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 2767.02, "currency": "USD", "additional_vnd": 500000 },
-    "lastUpdated": "2026-04-28"
+    "lastUpdated": "2026-04-29"
 };
