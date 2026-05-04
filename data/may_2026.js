@@ -5,12 +5,13 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-05"] = {
     "month": "Май 2026",
     "currency": {
-        "usd_to_vnd": 26665,
+        "usd_to_vnd": 26649,
         "converted": [
-            { "date": "2026-05-03", "usd": 85.32, "vnd": 2275057 }
+            { "date": "2026-05-03", "usd": 85.32, "vnd": 2275057 },
+            { "date": "2026-05-04", "usd": 87.26, "vnd": 2324170 }
         ],
-        "total_usd": 85.32,
-        "total_vnd": 2275057
+        "total_usd": 172.58,
+        "total_vnd": 4599227
     },
     "expenses": [
         {
@@ -66,6 +67,24 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 28000, "comment": "" }
             ],
             "total": 1660097
+        },
+        {
+            "date": "2026-05-04",
+            "items": [
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 11000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "mushrooms", "icon": "🍄", "name": "Грибы", "amount": 851520, "comment": "$32" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 14500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 45000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 28700, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 29500, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 13200, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 13900, "comment": "" },
+                { "category": "savings", "icon": "💰", "name": "Сбережения", "amount": 2556960, "comment": "$96" }
+            ],
+            "total": 3636280
         }
     ],
     "categories": {
@@ -100,6 +119,6 @@ MONTHS_DATA["2026-05"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 127, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-05-03"
+    "income": { "monthly": 342, "currency": "USD", "additional_vnd": 0 },
+    "lastUpdated": "2026-05-04"
 };
