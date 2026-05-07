@@ -102,6 +102,28 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" }
             ],
             "total": 257100
+        },
+        {
+            "date": "2026-05-06",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 16800, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 12800, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 26500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 47500, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 25000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10700, "comment": "" },
+                { "category": "water", "icon": "💧", "name": "Вода", "amount": 5500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 45000, "comment": "" },
+                { "category": "ceremony", "icon": "🕯️", "name": "Йога", "amount": 100000, "comment": "практика" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15300, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 21500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 7300, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21900, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15300, "comment": "" },
+                { "category": "savings", "icon": "💰", "name": "Сбережения", "amount": 3588021, "comment": "$134.64" }
+            ],
+            "total": 3987121
         }
     ],
     "categories": {
@@ -136,6 +158,6 @@ MONTHS_DATA["2026-05"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 1092, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-05-05"
+    "income": { "monthly": 1226.64, "currency": "USD", "additional_vnd": 0 },
+    "lastUpdated": "2026-05-06"
 };
