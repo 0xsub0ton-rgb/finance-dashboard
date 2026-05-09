@@ -155,6 +155,21 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "rent", "icon": "🏠", "name": "Аренда квартиры", "amount": 9585000, "comment": "" }
             ],
             "total": 9825600
+        },
+        {
+            "date": "2026-05-09",
+            "items": [
+                { "category": "transport", "icon": "🚕", "name": "Аренда байка", "amount": 200000, "comment": "" },
+                { "category": "travel", "icon": "✈️", "name": "Глэмпинг", "amount": 100000, "comment": "отдых" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 43300, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 10900, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 22000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 14500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 30100, "comment": "" }
+            ],
+            "total": 463800
         }
     ],
     "categories": {
@@ -189,6 +204,6 @@ MONTHS_DATA["2026-05"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 1226.64, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-05-08"
+    "income": { "monthly": 1726.64, "currency": "USD", "additional_vnd": 0 },
+    "lastUpdated": "2026-05-09"
 };
