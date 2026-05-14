@@ -240,6 +240,22 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 144895, "comment": "$5.47" }
             ],
             "total": 1157736
+        },
+        {
+            "date": "2026-05-14",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 13774, "comment": "$0.52" },
+                { "category": "clothing", "icon": "👟", "name": "Одежда", "amount": 483159, "comment": "$18.24" },
+                { "category": "clothing", "icon": "👟", "name": "Одежда", "amount": 2250770, "comment": "$84.97" },
+                { "category": "clothing", "icon": "👟", "name": "Одежда", "amount": 306478, "comment": "$11.57" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 19337, "comment": "$0.73" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 112048, "comment": "$4.23" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 36820, "comment": "$1.39" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 20661, "comment": "$0.78" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 206349, "comment": "$7.79" },
+                { "category": "insurance", "icon": "🛡️", "name": "Страховка", "amount": 3699189, "comment": "$139.65" }
+            ],
+            "total": 7148585
         }
     ],
     "categories": {
@@ -275,5 +291,5 @@ MONTHS_DATA["2026-05"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1726.64, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-05-13"
+    "lastUpdated": "2026-05-14"
 };
