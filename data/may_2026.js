@@ -256,6 +256,20 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "insurance", "icon": "🛡️", "name": "Страховка", "amount": 3699189, "comment": "$139.65" }
             ],
             "total": 7148585
+        },
+        {
+            "date": "2026-05-15",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 46885, "comment": "$1.77" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 505145, "comment": "$19.07" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 366343, "comment": "$13.83" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 34436, "comment": "$1.3" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 45000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21400, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15300, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 30000, "comment": "" }
+            ],
+            "total": 1064509
         }
     ],
     "categories": {
@@ -291,5 +305,5 @@ MONTHS_DATA["2026-05"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1726.64, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-05-14"
+    "lastUpdated": "2026-05-15"
 };
