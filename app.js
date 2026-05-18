@@ -234,7 +234,11 @@ class ExpenseDashboard {
     }
 
     getTotalExpenses() {
-        return this.data.expenses.reduce((sum, day) => sum + day.total, 0);
+        return this.data.expenses.reduce((sum, day) => {
+            return sum + day.items
+                .filter(item => item.category !== 'savings')
+                .reduce((s, item) => s + item.amount, 0);
+        }, 0);
     }
 
     getDaysCount() {
@@ -303,6 +307,14 @@ class ExpenseDashboard {
         const budgetBar = document.getElementById('budgetProgressBar');
         if (budgetText) budgetText.textContent = budgetPercent + '% осталось';
         if (budgetBar) budgetBar.style.width = budgetPercent + '%';
+
+        const budgetTotalEl = document.getElementById('budgetTotal');
+        if (budgetTotalEl) {
+            const totalLabel = this.currentCurrency === 'USD'
+                ? 'из ' + this.formatUSD(totalIncomeUsd)
+                : 'из ' + this.formatVND(incomeVnd);
+            budgetTotalEl.textContent = totalLabel;
+        }
     }
 
     renderCharts() {
