@@ -290,6 +290,27 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 102248, "comment": "$3.86" }
             ],
             "total": 122909
+        },
+        {
+            "date": "2026-05-18",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 21721, "comment": "$0.82" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 40000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 18000, "comment": "" },
+                { "category": "repair", "icon": "🔧", "name": "Ремонт байка", "amount": 50000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 12000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21400, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 9200, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 56000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 42800, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 66000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 29900, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15300, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 16100, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" }
+            ],
+            "total": 468421
         }
     ],
     "categories": {
@@ -325,5 +346,5 @@ MONTHS_DATA["2026-05"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1726.64, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-05-17"
+    "lastUpdated": "2026-05-18"
 };
