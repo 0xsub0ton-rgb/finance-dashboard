@@ -311,6 +311,23 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" }
             ],
             "total": 468421
+        },
+        {
+            "date": "2026-05-19",
+            "items": [
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21400, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 9700, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 33000, "comment": "" },
+                { "category": "water", "icon": "💧", "name": "Вода", "amount": 30000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 36700, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21400, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15300, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 28800, "comment": "" }
+            ],
+            "total": 274300
         }
     ],
     "categories": {
@@ -346,5 +363,5 @@ MONTHS_DATA["2026-05"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1726.64, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-05-18"
+    "lastUpdated": "2026-05-19"
 };
