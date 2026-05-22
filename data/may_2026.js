@@ -21,21 +21,21 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 20000, "comment": "" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 30500, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 12000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 12800, "comment": "" }
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 12800, "comment": "" }
             ],
             "total": 75300
         },
         {
             "date": "2026-05-02",
             "items": [
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
                 { "category": "water", "icon": "💧", "name": "Вода", "amount": 30000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" },
                 { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 9700, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 27000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 27000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 24400, "comment": "" },
                 { "category": "health", "icon": "❤️", "name": "Спорт", "amount": 72000, "comment": "" },
                 { "category": "tea", "icon": "🍵", "name": "Чай", "amount": 562000, "comment": "" },
@@ -63,9 +63,9 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 86400, "comment": "" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 19000, "comment": "" },
                 { "category": "water", "icon": "💧", "name": "Вода", "amount": 30000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 27000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 27000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 60000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 28000, "comment": "" }
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 28000, "comment": "" }
             ],
             "total": 1660097
         },
@@ -74,14 +74,14 @@ MONTHS_DATA["2026-05"] = {
             "items": [
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
                 { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 11000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 11000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
                 { "category": "mushrooms", "icon": "🍄", "name": "Грибы", "amount": 851520, "comment": "$32" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 14500, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 45000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 28700, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 29500, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 13200, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 13200, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 13900, "comment": "" },
                 { "category": "savings", "icon": "💰", "name": "Сбережения", "amount": 2556960, "comment": "$96" }
             ],
@@ -91,14 +91,14 @@ MONTHS_DATA["2026-05"] = {
             "date": "2026-05-05",
             "items": [
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 11000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 13700, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 11000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 13700, "comment": "" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 10000, "comment": "" },
                 { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 38000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
                 { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 28000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21400, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 27000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 27000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 18000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" }
             ],
@@ -131,7 +131,7 @@ MONTHS_DATA["2026-05"] = {
             "items": [
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 10000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 25000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 11500, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 11500, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 14500, "comment": "" },
                 { "category": "habits", "icon": "🚬", "name": "Стаф", "amount": 90000, "comment": "" },
@@ -164,8 +164,8 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 43300, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 10900, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 22000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 15000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 22000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 15000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 14500, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 30100, "comment": "" }
             ],
@@ -177,7 +177,7 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 14500, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 31000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 31000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 55000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 32700, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 20700, "comment": "" },
@@ -197,7 +197,7 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 11800, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 12800, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 13700, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 13700, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 14500, "comment": "" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 30000, "comment": "" }
             ],
@@ -212,10 +212,10 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "health", "icon": "❤️", "name": "Больница", "amount": 150000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 28800, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21400, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 11800, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 11800, "comment": "" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 5000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 10000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 12000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 12000, "comment": "" },
                 { "category": "ceremony", "icon": "🕯️", "name": "Йога", "amount": 100000, "comment": "практика" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 50000, "comment": "" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 10000, "comment": "" },
@@ -278,7 +278,7 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 16953, "comment": "$0.64" },
                 { "category": "water", "icon": "💧", "name": "Вода", "amount": 31522, "comment": "$1.19" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 44766, "comment": "$1.69" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 10331, "comment": "$0.39" }
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10331, "comment": "$0.39" }
             ],
             "total": 127412
         },
@@ -286,7 +286,7 @@ MONTHS_DATA["2026-05"] = {
             "date": "2026-05-17",
             "items": [
                 { "category": "water", "icon": "💧", "name": "Вода", "amount": 11125, "comment": "$0.42" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 9536, "comment": "$0.36" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 9536, "comment": "$0.36" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 102248, "comment": "$3.86" }
             ],
             "total": 122909
@@ -294,13 +294,13 @@ MONTHS_DATA["2026-05"] = {
         {
             "date": "2026-05-18",
             "items": [
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 21721, "comment": "$0.82" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 21721, "comment": "$0.82" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 40000, "comment": "" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 18000, "comment": "" },
                 { "category": "repair", "icon": "🔧", "name": "Ремонт байка", "amount": 50000, "comment": "" },
                 { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 12000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21400, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 9200, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 9200, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 56000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 42800, "comment": "" },
@@ -317,7 +317,7 @@ MONTHS_DATA["2026-05"] = {
             "items": [
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 15000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21400, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 9700, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 9700, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 33000, "comment": "" },
                 { "category": "water", "icon": "💧", "name": "Вода", "amount": 30000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
@@ -346,8 +346,8 @@ MONTHS_DATA["2026-05"] = {
             "date": "2026-05-21",
             "items": [
                 { "category": "energy", "icon": "🥤", "name": "Смузи", "amount": 50000, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 10200, "comment": "" },
-                { "category": "energy", "icon": "🥤", "name": "Энергетик", "amount": 14800, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10200, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 14800, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21400, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 32500, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 28900, "comment": "" },
@@ -367,6 +367,7 @@ MONTHS_DATA["2026-05"] = {
         "food": { "icon": "🍽️", "name": "Еда", "color": "#FF6384" },
         "coffee": { "icon": "☕", "name": "Кафе", "color": "#8B4513" },
         "energy": { "icon": "🥤", "name": "Напитки", "color": "#36A2EB" },
+        "energydrink": { "icon": "⚡", "name": "Энергетики", "color": "#FF6B35" },
         "habits": { "icon": "🚬", "name": "Вредные привычки", "color": "#9966FF" },
         "entertainment": { "icon": "🎭", "name": "Развлечения", "color": "#FF9F40" },
         "transport": { "icon": "🚕", "name": "Транспорт", "color": "#FFCE56" },
