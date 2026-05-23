@@ -127,14 +127,22 @@
         </footer>
     </div>
 
-    <!-- Month data files (loaded before registry) -->
-    <script src="data/february_2026.js?v=62"></script>
-    <script src="data/march_2026.js?v=62"></script>
-    <script src="data/april_2026.js?v=62"></script>
-    <script src="data/may_2026.js?v=62"></script>
-    <!-- Registry & backward-compatible getter -->
-    <script src="data.js?v=62"></script>
-    <script src="app.js?v=62"></script>
+    <!-- Dynamic cache-busting: version = today's date, resets automatically -->
+    <script>
+        (function () {
+            var v = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+            [
+                'data/february_2026.js',
+                'data/march_2026.js',
+                'data/april_2026.js',
+                'data/may_2026.js',
+                'data.js',
+                'app.js'
+            ].forEach(function (f) {
+                document.write('<script src="' + f + '?v=' + v + '"><\/script>');
+            });
+        })();
+    </script>
 </body>
 
 </html>
