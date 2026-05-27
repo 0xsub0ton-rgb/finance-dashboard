@@ -440,6 +440,24 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 44000, "comment": "" }
             ],
             "total": 421500
+        },
+        {
+            "date": "2026-05-27",
+            "items": [
+                { "category": "health", "icon": "❤️", "name": "Коврик для йоги", "amount": 3634026, "comment": "$137.19" },
+                { "category": "transport", "icon": "🚕", "name": "Подписка Grab", "amount": 28343, "comment": "$1.07" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 95000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 24000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт (стирка)", "amount": 18000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Стаф", "amount": 45000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 8900, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 31300, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21400, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 13900, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 19900, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 30600, "comment": "" }
+            ],
+            "total": 3970369
         }
     ],
     "categories": {
@@ -476,5 +494,5 @@ MONTHS_DATA["2026-05"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 2476.64, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-05-26"
+    "lastUpdated": "2026-05-27"
 };
