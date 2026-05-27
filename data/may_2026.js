@@ -444,7 +444,7 @@ MONTHS_DATA["2026-05"] = {
         {
             "date": "2026-05-27",
             "items": [
-                { "category": "health", "icon": "❤️", "name": "Коврик для йоги", "amount": 3634026, "comment": "$137.19" },
+                { "category": "health", "icon": "❤️", "name": "Коврик для йоги", "amount": 3634026, "comment": "$137.19", "oneTime": true },
                 { "category": "transport", "icon": "🚕", "name": "Подписка Grab", "amount": 28343, "comment": "$1.07" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 95000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 24000, "comment": "" },
