@@ -130,7 +130,7 @@
     <!-- Dynamic cache-busting: version = today's date, resets automatically -->
     <script>
         (function () {
-            var v = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+            var v = Date.now();
             [
                 'data/february_2026.js',
                 'data/march_2026.js',
