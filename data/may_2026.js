@@ -5,14 +5,15 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-05"] = {
     "month": "Май 2026",
     "currency": {
-        "usd_to_vnd": 26489,
+        "usd_to_vnd": 26476,
         "converted": [
             { "date": "2026-05-03", "usd": 85.32, "vnd": 2275057 },
             { "date": "2026-05-04", "usd": 87.26, "vnd": 2324170 },
-            { "date": "2026-05-08", "usd": 400, "vnd": 10566000 }
+            { "date": "2026-05-08", "usd": 400, "vnd": 10566000 },
+            { "date": "2026-05-28", "usd": 120, "vnd": 3171840 }
         ],
-        "total_usd": 572.58,
-        "total_vnd": 15165227
+        "total_usd": 692.58,
+        "total_vnd": 18337067
     },
     "expenses": [
         {
