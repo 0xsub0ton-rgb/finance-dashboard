@@ -5,15 +5,16 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-05"] = {
     "month": "Май 2026",
     "currency": {
-        "usd_to_vnd": 26476,
+        "usd_to_vnd": 26467,
         "converted": [
             { "date": "2026-05-03", "usd": 85.32, "vnd": 2275057 },
             { "date": "2026-05-04", "usd": 87.26, "vnd": 2324170 },
             { "date": "2026-05-08", "usd": 400, "vnd": 10566000 },
-            { "date": "2026-05-28", "usd": 120, "vnd": 3171840 }
+            { "date": "2026-05-28", "usd": 120, "vnd": 3171840 },
+            { "date": "2026-05-31", "usd": 100, "vnd": 2640500 }
         ],
-        "total_usd": 692.58,
-        "total_vnd": 18337067
+        "total_usd": 792.58,
+        "total_vnd": 20977567
     },
     "expenses": [
         {
@@ -495,6 +496,18 @@ MONTHS_DATA["2026-05"] = {
                 { "category": "habits", "icon": "🚬", "name": "Стаф", "amount": 293354, "comment": "$11.08" }
             ],
             "total": 376054
+        },
+        {
+            "date": "2026-05-31",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 40000, "comment": "" },
+                { "category": "health", "icon": "❤️", "name": "Сауна", "amount": 350000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 117513, "comment": "$4.44" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 40000, "comment": "" },
+                { "category": "massage", "icon": "💆", "name": "Массаж", "amount": 280000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напитки", "amount": 127000, "comment": "" }
+            ],
+            "total": 954513
         }
     ],
     "categories": {
@@ -531,5 +544,5 @@ MONTHS_DATA["2026-05"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 2506.43, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-05-30"
+    "lastUpdated": "2026-05-31"
 };
