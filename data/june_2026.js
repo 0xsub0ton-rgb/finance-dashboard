@@ -81,6 +81,6 @@ MONTHS_DATA["2026-06"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 3506.43, "currency": "USD", "additional_vnd": 0 },
+    "income": { "monthly": 1000, "currency": "USD", "additional_vnd": 0 },
     "lastUpdated": "2026-06-02"
 };
