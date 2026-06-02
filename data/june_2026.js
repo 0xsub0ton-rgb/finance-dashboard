@@ -32,6 +32,20 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 28200, "comment": "" }
             ],
             "total": 368800
+        },
+        {
+            "date": "2026-06-02",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Смузи", "amount": 25000, "comment": "" },
+                { "category": "haircut", "icon": "💇", "name": "Стрижка", "amount": 60000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 11000, "comment": "" },
+                { "category": "health", "icon": "❤️", "name": "Лекарства", "amount": 20000, "comment": "" },
+                { "category": "water", "icon": "💧", "name": "Вода", "amount": 95000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 33800, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 32000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15300, "comment": "" }
+            ],
+            "total": 292100
         }
     ],
     "categories": {
@@ -67,6 +81,6 @@ MONTHS_DATA["2026-06"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 2506.43, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-06-01"
+    "income": { "monthly": 3506.43, "currency": "USD", "additional_vnd": 0 },
+    "lastUpdated": "2026-06-02"
 };
