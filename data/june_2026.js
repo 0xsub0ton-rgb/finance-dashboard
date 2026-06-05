@@ -57,10 +57,31 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 16000, "comment": "" }
             ],
             "total": 89000
+        },
+        {
+            "date": "2026-06-04",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Смузи", "amount": 53000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 22700, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 36600, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 11700, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Стаф", "amount": 45000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 27400, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 55700, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Молоко", "amount": 37900, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 4500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 4100, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 4500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 5000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 12300, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 101000, "comment": "" }
+            ],
+            "total": 421400
         }
     ],
     "categories": {
         "food": { "icon": "🍽️", "name": "Еда", "color": "#FF6384" },
+        "fruits": { "icon": "🍎", "name": "Фрукты", "color": "#FF5722" },
         "coffee": { "icon": "☕", "name": "Кафе", "color": "#8B4513" },
         "energy": { "icon": "🥤", "name": "Напитки", "color": "#36A2EB" },
         "energydrink": { "icon": "⚡", "name": "Энергетики", "color": "#FF6B35" },
@@ -92,6 +113,6 @@ MONTHS_DATA["2026-06"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 999, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-06-03"
+    "income": { "monthly": 999, "currency": "USD", "additional_vnd": 300000 },
+    "lastUpdated": "2026-06-04"
 };
