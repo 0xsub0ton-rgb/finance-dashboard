@@ -77,6 +77,18 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 101000, "comment": "" }
             ],
             "total": 421400
+        },
+        {
+            "date": "2026-06-05",
+            "items": [
+                { "category": "food", "icon": "🍽️", "name": "Доставка", "amount": 22000, "comment": "" },
+                { "category": "health", "icon": "❤️", "name": "Маска для сна", "amount": 135000, "comment": "" },
+                { "category": "ceremony", "icon": "🕯️", "name": "Гвозди для стояния", "amount": 617000, "comment": "практика", "oneTime": true },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 12300, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Смузи", "amount": 25000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" }
+            ],
+            "total": 839300
         }
     ],
     "categories": {
@@ -114,5 +126,5 @@ MONTHS_DATA["2026-06"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 999, "currency": "USD", "additional_vnd": 300000 },
-    "lastUpdated": "2026-06-04"
+    "lastUpdated": "2026-06-05"
 };
