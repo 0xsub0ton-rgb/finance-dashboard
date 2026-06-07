@@ -5,10 +5,12 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-06"] = {
     "month": "Июнь 2026",
     "currency": {
-        "usd_to_vnd": 26467,
-        "converted": [],
-        "total_usd": 0,
-        "total_vnd": 0
+        "usd_to_vnd": 26427,
+        "converted": [
+            { "usd": 500, "vnd": 13213500, "rate": 26427, "date": "2026-06-07" }
+        ],
+        "total_usd": 500,
+        "total_vnd": 13213500
     },
     "expenses": [
         {
@@ -106,6 +108,16 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" }
             ],
             "total": 244400
+        },
+        {
+            "date": "2026-06-07",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Смузи", "amount": 25000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 70000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 35000, "comment": "" }
+            ],
+            "total": 147000
         }
     ],
     "categories": {
@@ -143,5 +155,5 @@ MONTHS_DATA["2026-06"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 999, "currency": "USD", "additional_vnd": 300000 },
-    "lastUpdated": "2026-06-06"
+    "lastUpdated": "2026-06-07"
 };
