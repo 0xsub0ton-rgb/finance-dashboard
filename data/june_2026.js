@@ -118,6 +118,17 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 35000, "comment": "" }
             ],
             "total": 147000
+        },
+        {
+            "date": "2026-06-08",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Смузи", "amount": 25000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "rent", "icon": "🏠", "name": "Аренда квартиры", "amount": 8000000, "comment": "", "oneTime": true },
+                { "category": "rent", "icon": "🏠", "name": "Коммуналка", "amount": 2630000, "comment": "", "oneTime": true },
+                { "category": "visa", "icon": "🛂", "name": "Виза", "amount": 2642700, "comment": "100 USD по курсу 26427", "oneTime": true }
+            ],
+            "total": 13307700
         }
     ],
     "categories": {
@@ -155,5 +166,5 @@ MONTHS_DATA["2026-06"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 999, "currency": "USD", "additional_vnd": 300000 },
-    "lastUpdated": "2026-06-07"
+    "lastUpdated": "2026-06-08"
 };
