@@ -169,11 +169,11 @@ MONTHS_DATA["2026-06"] = {
         {
             "date": "2026-06-11",
             "items": [
-                { "category": "tea", "icon": "🍵", "name": "Чай", "amount": 20000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 20000, "comment": "" },
                 { "category": "subscriptions", "icon": "📱", "name": "Подписка X DCA", "amount": 264280, "comment": "10 USD", "oneTime": true },
                 { "category": "ceremony", "icon": "🕯️", "name": "Кубик для йоги", "amount": 61000, "comment": "" },
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
-                { "category": "gifts", "icon": "💝", "name": "Благотворительность", "amount": 589873, "comment": "22.32 USD", "oneTime": true }
+                { "category": "charity", "icon": "🕊️", "name": "Благотворительность", "amount": 589873, "comment": "22.32 USD", "oneTime": true }
             ],
             "total": 952153
         }
@@ -191,6 +191,7 @@ MONTHS_DATA["2026-06"] = {
         "rent": { "icon": "🏠", "name": "Аренда", "color": "#E7E9ED" },
         "health": { "icon": "❤️", "name": "Здоровье", "color": "#FF6B6B" },
         "gifts": { "icon": "💝", "name": "Подарки", "color": "#C9CBCF" },
+        "charity": { "icon": "🕊️", "name": "Благотворительность", "color": "#009688" },
         "laundry": { "icon": "🧺", "name": "Быт", "color": "#00BCD4" },
         "haircut": { "icon": "💇", "name": "Стрижка", "color": "#795548" },
         "visa": { "icon": "🛂", "name": "Виза-ран", "color": "#607D8B" },
