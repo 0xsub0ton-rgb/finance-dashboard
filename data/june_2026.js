@@ -176,6 +176,23 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "charity", "icon": "🕊️", "name": "Благотворительность", "amount": 589873, "comment": "22.32 USD", "oneTime": true }
             ],
             "total": 952153
+        },
+        {
+            "date": "2026-06-12",
+            "items": [
+                { "category": "laundry", "icon": "🧺", "name": "Стирка быт", "amount": 16000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Смузи", "amount": 25000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 28000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 46400, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 22900, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Йогурт", "amount": 24000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 65000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 25300, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 600, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 25000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Молоко", "amount": 70500, "comment": "" }
+            ],
+            "total": 348700
         }
     ],
     "categories": {
@@ -214,5 +231,5 @@ MONTHS_DATA["2026-06"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1541.52, "currency": "USD", "additional_vnd": 300000 },
-    "lastUpdated": "2026-06-11"
+    "lastUpdated": "2026-06-12"
 };
