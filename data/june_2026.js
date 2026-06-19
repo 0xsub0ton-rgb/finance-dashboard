@@ -289,6 +289,25 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 30600, "comment": "" }
             ],
             "total": 170000
+        },
+        {
+            "date": "2026-06-19",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 65000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 45000, "comment": "" },
+                { "category": "education", "icon": "🎓", "name": "Тетрадь", "amount": 39000, "comment": "" },
+                { "category": "education", "icon": "🎓", "name": "Тетрадь", "amount": 39000, "comment": "" },
+                { "category": "education", "icon": "🎓", "name": "Бумага А4", "amount": 86000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 1500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 89000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 55000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 38000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 13500, "comment": "" },
+                { "category": "clothing", "icon": "👟", "name": "Одежда спортивная", "amount": 99000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 9600, "comment": "" }
+            ],
+            "total": 594600
         }
     ],
     "categories": {
@@ -327,5 +346,5 @@ MONTHS_DATA["2026-06"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1541.52, "currency": "USD", "additional_vnd": 300000 },
-    "lastUpdated": "2026-06-18"
+    "lastUpdated": "2026-06-19"
 };
