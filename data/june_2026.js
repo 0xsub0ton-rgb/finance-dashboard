@@ -5,15 +5,16 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-06"] = {
     "month": "Июнь 2026",
     "currency": {
-        "usd_to_vnd": 26403,
+        "usd_to_vnd": 26399,
         "converted": [
             { "usd": 500, "vnd": 13213500, "rate": 26427, "date": "2026-06-07" },
             { "usd": 33.4, "vnd": 883000, "rate": 26437, "date": "2026-06-09" },
             { "usd": 100, "vnd": 2627500, "rate": 26275, "date": "2026-06-15" },
-            { "usd": 75, "vnd": 1980000, "rate": 26400, "date": "2026-06-16" }
+            { "usd": 75, "vnd": 1980000, "rate": 26400, "date": "2026-06-16" },
+            { "usd": 1.8, "vnd": 44600, "rate": 24778, "date": "2026-06-21" }
         ],
-        "total_usd": 708.4,
-        "total_vnd": 18704000
+        "total_usd": 710.2,
+        "total_vnd": 18748600
     },
     "expenses": [
         {
@@ -326,6 +327,27 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "habits", "icon": "🚬", "name": "Алко", "amount": 13900, "comment": "" }
             ],
             "total": 181800
+        },
+        {
+            "date": "2026-06-21",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 30000, "comment": "" },
+                { "category": "subscriptions", "icon": "📱", "name": "Подписка", "amount": 131731, "comment": "4.99 USD", "oneTime": true },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 28000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 44600, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 6900, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 3000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Овсянка", "amount": 110000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Молоко", "amount": 94000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Авокадо", "amount": 31200, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Картошка", "amount": 14500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Картошка", "amount": 14800, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 24000, "comment": "" },
+                { "category": "education", "icon": "🎓", "name": "Карандаши", "amount": 49000, "comment": "" }
+            ],
+            "total": 606731
         }
     ],
     "categories": {
@@ -364,5 +386,5 @@ MONTHS_DATA["2026-06"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1541.52, "currency": "USD", "additional_vnd": 300000 },
-    "lastUpdated": "2026-06-20"
+    "lastUpdated": "2026-06-21"
 };
