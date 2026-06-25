@@ -385,6 +385,14 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" }
             ],
             "total": 114300
+        },
+        {
+            "date": "2026-06-25",
+            "items": [
+                { "category": "subscriptions", "icon": "📱", "name": "Подписка Grab", "amount": 28247, "comment": "1.07 USD", "oneTime": true },
+                { "category": "education", "icon": "🎓", "name": "Обучение", "amount": 7000, "comment": "" }
+            ],
+            "total": 35247
         }
     ],
     "categories": {
@@ -423,5 +431,5 @@ MONTHS_DATA["2026-06"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1541.52, "currency": "USD", "additional_vnd": 300000 },
-    "lastUpdated": "2026-06-24"
+    "lastUpdated": "2026-06-25"
 };
