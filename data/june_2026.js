@@ -5,17 +5,18 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-06"] = {
     "month": "Июнь 2026",
     "currency": {
-        "usd_to_vnd": 26420,
+        "usd_to_vnd": 26459,
         "converted": [
             { "usd": 500, "vnd": 13213500, "rate": 26427, "date": "2026-06-07" },
             { "usd": 33.4, "vnd": 883000, "rate": 26437, "date": "2026-06-09" },
             { "usd": 100, "vnd": 2627500, "rate": 26275, "date": "2026-06-15" },
             { "usd": 75, "vnd": 1980000, "rate": 26400, "date": "2026-06-16" },
             { "usd": 1.8, "vnd": 44600, "rate": 24778, "date": "2026-06-21" },
-            { "usd": 50, "vnd": 1335750, "rate": 26715, "date": "2026-06-27" }
+            { "usd": 50, "vnd": 1335750, "rate": 26715, "date": "2026-06-27" },
+            { "usd": 80, "vnd": 2146560, "rate": 26832, "date": "2026-06-28" }
         ],
-        "total_usd": 760.2,
-        "total_vnd": 20084350
+        "total_usd": 840.2,
+        "total_vnd": 22230910
     },
     "expenses": [
         {
@@ -429,6 +430,17 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 1500, "comment": "" }
             ],
             "total": 567100
+        },
+        {
+            "date": "2026-06-28",
+            "items": [
+                { "category": "transport", "icon": "🚕", "name": "Аренда байка", "amount": 2100000, "comment": "", "oneTime": true },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 33000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 45000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10900, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" }
+            ],
+            "total": 2203900
         }
     ],
     "categories": {
@@ -467,5 +479,5 @@ MONTHS_DATA["2026-06"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1541.52, "currency": "USD", "additional_vnd": 300000 },
-    "lastUpdated": "2026-06-27"
+    "lastUpdated": "2026-06-28"
 };
