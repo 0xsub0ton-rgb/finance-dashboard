@@ -455,6 +455,22 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "subscriptions", "icon": "📱", "name": "Подписка Telegram Premium", "amount": 767046, "comment": "28.99 USD", "oneTime": true }
             ],
             "total": 943246
+        },
+        {
+            "date": "2026-06-30",
+            "items": [
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 12300, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 35000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 20000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 4500, "comment": "" },
+                { "category": "ceremony", "icon": "🕯️", "name": "Благовония", "amount": 55000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 11000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 28000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 17900, "comment": "" },
+                { "category": "mobile", "icon": "📞", "name": "Сотовый тариф", "amount": 410000, "comment": "" }
+            ],
+            "total": 603700
         }
     ],
     "categories": {
@@ -493,5 +509,5 @@ MONTHS_DATA["2026-06"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1541.52, "currency": "USD", "additional_vnd": 300000 },
-    "lastUpdated": "2026-06-29"
+    "lastUpdated": "2026-06-30"
 };
