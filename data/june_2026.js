@@ -441,6 +441,20 @@ MONTHS_DATA["2026-06"] = {
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" }
             ],
             "total": 2203900
+        },
+        {
+            "date": "2026-06-29",
+            "items": [
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 50000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 17000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 28300, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 31700, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 11400, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 22800, "comment": "" },
+                { "category": "subscriptions", "icon": "📱", "name": "Подписка Telegram Premium", "amount": 767046, "comment": "28.99 USD", "oneTime": true }
+            ],
+            "total": 943246
         }
     ],
     "categories": {
@@ -479,5 +493,5 @@ MONTHS_DATA["2026-06"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1541.52, "currency": "USD", "additional_vnd": 300000 },
-    "lastUpdated": "2026-06-28"
+    "lastUpdated": "2026-06-29"
 };
