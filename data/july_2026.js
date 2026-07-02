@@ -5,10 +5,12 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-07"] = {
     "month": "Июль 2026",
     "currency": {
-        "usd_to_vnd": 26459,
-        "converted": [],
-        "total_usd": 0,
-        "total_vnd": 0
+        "usd_to_vnd": 26532,
+        "converted": [
+            { "usd": 100, "vnd": 2653200, "rate": 26532, "date": "2026-07-02" }
+        ],
+        "total_usd": 100,
+        "total_vnd": 2653200
     },
     "expenses": [
         {
@@ -32,6 +34,20 @@ MONTHS_DATA["2026-07"] = {
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 36000, "comment": "" }
             ],
             "total": 438600
+        },
+        {
+            "date": "2026-07-02",
+            "items": [
+                { "category": "education", "icon": "🎓", "name": "Обучение", "amount": 40000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 55000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 17000, "comment": "" },
+                { "category": "education", "icon": "🎓", "name": "Обучение", "amount": 26000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 25000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 10000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21500, "comment": "" }
+            ],
+            "total": 209500
         }
     ],
     "categories": {
@@ -69,6 +85,6 @@ MONTHS_DATA["2026-07"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 0, "currency": "USD", "additional_vnd": 494584 },
-    "lastUpdated": "2026-07-01"
+    "income": { "monthly": 129.57, "currency": "USD", "additional_vnd": 628584 },
+    "lastUpdated": "2026-07-02"
 };
