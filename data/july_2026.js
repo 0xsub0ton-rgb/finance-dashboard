@@ -76,6 +76,18 @@ MONTHS_DATA["2026-07"] = {
                 { "category": "transport", "icon": "🚕", "name": "Транспорт", "amount": 10000, "comment": "" }
             ],
             "total": 310200
+        },
+        {
+            "date": "2026-07-05",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 17000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 35000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 65000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 39000, "comment": "" },
+                { "category": "milk", "icon": "🥛", "name": "Молоко", "amount": 23500, "comment": "" }
+            ],
+            "total": 194500
         }
     ],
     "categories": {
@@ -106,6 +118,7 @@ MONTHS_DATA["2026-07"] = {
         "business": { "icon": "💼", "name": "Бизнес", "color": "#3F51B5" },
         "wishes": { "icon": "✨", "name": "Желания", "color": "#E040FB" },
         "tea": { "icon": "🍵", "name": "Чай", "color": "#4CAF50" },
+        "milk": { "icon": "🥛", "name": "Молоко", "color": "#F5F5DC" },
         "mobile": { "icon": "📞", "name": "Мобильная связь", "color": "#78909C" },
         "events": { "icon": "🎪", "name": "Ивенты", "color": "#FF4081" },
         "travel": { "icon": "✈️", "name": "Путешествия", "color": "#26C6DA" },
@@ -114,5 +127,5 @@ MONTHS_DATA["2026-07"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 129.57, "currency": "USD", "additional_vnd": 628584 },
-    "lastUpdated": "2026-07-04"
+    "lastUpdated": "2026-07-05"
 };
