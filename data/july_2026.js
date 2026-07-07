@@ -101,6 +101,19 @@ MONTHS_DATA["2026-07"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 8400, "comment": "" }
             ],
             "total": 200400
+        },
+        {
+            "date": "2026-07-07",
+            "items": [
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 23000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 17000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 25000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 18000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21500, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Стирка", "amount": 20000, "comment": "" }
+            ],
+            "total": 134500
         }
     ],
     "categories": {
@@ -140,5 +153,5 @@ MONTHS_DATA["2026-07"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 129.57, "currency": "USD", "additional_vnd": 628584 },
-    "lastUpdated": "2026-07-06"
+    "lastUpdated": "2026-07-07"
 };
