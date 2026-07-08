@@ -114,6 +114,21 @@ MONTHS_DATA["2026-07"] = {
                 { "category": "laundry", "icon": "🧺", "name": "Стирка", "amount": 20000, "comment": "" }
             ],
             "total": 134500
+        },
+        {
+            "date": "2026-07-08",
+            "items": [
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 16000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 30000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 21500, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "health", "icon": "❤️", "name": "Здоровье", "amount": 542000, "comment": "", "oneTime": true },
+                { "category": "health", "icon": "❤️", "name": "Здоровье", "amount": 174500, "comment": "", "oneTime": true },
+                { "category": "travel", "icon": "✈️", "name": "Путешествия", "amount": 405674, "comment": "15.29 USD", "oneTime": true }
+            ],
+            "total": 1231674
         }
     ],
     "categories": {
@@ -152,6 +167,6 @@ MONTHS_DATA["2026-07"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 129.57, "currency": "USD", "additional_vnd": 628584 },
-    "lastUpdated": "2026-07-07"
+    "income": { "monthly": 172.15, "currency": "USD", "additional_vnd": 628584 },
+    "lastUpdated": "2026-07-08"
 };
