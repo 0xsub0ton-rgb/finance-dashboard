@@ -5,12 +5,13 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-07"] = {
     "month": "Июль 2026",
     "currency": {
-        "usd_to_vnd": 26532,
+        "usd_to_vnd": 26390,
         "converted": [
-            { "usd": 100, "vnd": 2653200, "rate": 26532, "date": "2026-07-02" }
+            { "usd": 100, "vnd": 2653200, "rate": 26532, "date": "2026-07-02" },
+            { "usd": 400, "vnd": 10556000, "rate": 26390, "date": "2026-07-09" }
         ],
-        "total_usd": 100,
-        "total_vnd": 2653200
+        "total_usd": 500,
+        "total_vnd": 13209200
     },
     "expenses": [
         {
@@ -129,6 +130,21 @@ MONTHS_DATA["2026-07"] = {
                 { "category": "travel", "icon": "✈️", "name": "Путешествия", "amount": 405674, "comment": "15.29 USD", "oneTime": true }
             ],
             "total": 1231674
+        },
+        {
+            "date": "2026-07-09",
+            "items": [
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 92000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 28000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 11000, "comment": "" },
+                { "category": "visa", "icon": "🛂", "name": "Виза-ран", "amount": 2639000, "comment": "100 USD", "oneTime": true },
+                { "category": "rent", "icon": "🏠", "name": "Аренда квартиры", "amount": 8000000, "comment": "", "oneTime": true },
+                { "category": "rent", "icon": "🏠", "name": "Комуналка", "amount": 1550000, "comment": "", "oneTime": true },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 16900, "comment": "" }
+            ],
+            "total": 12370900
         }
     ],
     "categories": {
@@ -167,6 +183,6 @@ MONTHS_DATA["2026-07"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 172.15, "currency": "USD", "additional_vnd": 628584 },
-    "lastUpdated": "2026-07-08"
+    "income": { "monthly": 991.70, "currency": "USD", "additional_vnd": 628584 },
+    "lastUpdated": "2026-07-09"
 };
