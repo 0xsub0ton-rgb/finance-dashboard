@@ -193,6 +193,22 @@ MONTHS_DATA["2026-07"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 11700, "comment": "" }
             ],
             "total": 151100
+        },
+        {
+            "date": "2026-07-13",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 17000, "comment": "" },
+                { "category": "education", "icon": "🎓", "name": "Обучение", "amount": 7000, "comment": "" },
+                { "category": "health", "icon": "❤️", "name": "Лекарство (В12)", "amount": 150000, "comment": "", "oneTime": true },
+                { "category": "laundry", "icon": "🧺", "name": "Стирка", "amount": 15000, "comment": "" },
+                { "category": "water", "icon": "💧", "name": "Вода", "amount": 30000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 20000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 25000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 28000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" }
+            ],
+            "total": 317000
         }
     ],
     "categories": {
@@ -232,5 +248,5 @@ MONTHS_DATA["2026-07"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 991.70, "currency": "USD", "additional_vnd": 628584 },
-    "lastUpdated": "2026-07-12"
+    "lastUpdated": "2026-07-13"
 };
