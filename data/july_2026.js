@@ -5,15 +5,16 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-07"] = {
     "month": "Июль 2026",
     "currency": {
-        "usd_to_vnd": 26214,
+        "usd_to_vnd": 26310,
         "converted": [
             { "usd": 100, "vnd": 2653200, "rate": 26532, "date": "2026-07-02" },
             { "usd": 400, "vnd": 10556000, "rate": 26390, "date": "2026-07-09" },
             { "usd": 100, "vnd": 2640000, "rate": 26400, "date": "2026-07-11" },
-            { "usd": 50, "vnd": 1310700, "rate": 26214, "date": "2026-07-21" }
+            { "usd": 50, "vnd": 1310700, "rate": 26214, "date": "2026-07-21" },
+            { "usd": 50, "vnd": 1315500, "rate": 26310, "date": "2026-07-23" }
         ],
-        "total_usd": 650,
-        "total_vnd": 17159900
+        "total_usd": 700,
+        "total_vnd": 18475400
     },
     "expenses": [
         {
@@ -348,6 +349,21 @@ MONTHS_DATA["2026-07"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 16800, "comment": "" }
             ],
             "total": 229800
+        },
+        {
+            "date": "2026-07-23",
+            "items": [
+                { "category": "health", "icon": "❤️", "name": "Медицина", "amount": 40000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 20000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 8500, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 20000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 8500, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Алко", "amount": 11900, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 204200, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Алко", "amount": 14000, "comment": "" }
+            ],
+            "total": 342100
         }
     ],
     "categories": {
@@ -387,5 +403,5 @@ MONTHS_DATA["2026-07"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 991.70, "currency": "USD", "additional_vnd": 628584 },
-    "lastUpdated": "2026-07-22"
+    "lastUpdated": "2026-07-23"
 };
