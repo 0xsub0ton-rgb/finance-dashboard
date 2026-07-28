@@ -414,6 +414,16 @@ MONTHS_DATA["2026-07"] = {
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 80000, "comment": "" }
             ],
             "total": 391300
+        },
+        {
+            "date": "2026-07-28",
+            "items": [
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 50000, "comment": "" },
+                { "category": "education", "icon": "🎓", "name": "Обучение", "amount": 3000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 34000, "comment": "" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 12000, "comment": "" }
+            ],
+            "total": 99000
         }
     ],
     "categories": {
@@ -450,8 +460,9 @@ MONTHS_DATA["2026-07"] = {
         "travel": { "icon": "✈️", "name": "Путешествия", "color": "#26C6DA" },
         "repair": { "icon": "🔧", "name": "Ремонт", "color": "#FF7043" },
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
-        "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
+        "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" },
+        "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 991.70, "currency": "USD", "additional_vnd": 628584 },
-    "lastUpdated": "2026-07-27"
+    "lastUpdated": "2026-07-28"
 };
