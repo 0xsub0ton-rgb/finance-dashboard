@@ -80,6 +80,30 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "visa", "icon": "🛂", "name": "Виза-ран", "amount": 2623300, "comment": "100 USD", "oneTime": true }
             ],
             "total": 2692200
+        },
+        {
+            "date": "2026-08-06",
+            "items": [
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 24000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 10000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 35000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 17000, "comment": "" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 40000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 6800, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 28500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 7200, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 139000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 39900, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 21900, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 42200, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 12200, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 43000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 40000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 40000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 16800, "comment": "" }
+            ],
+            "total": 580500
         }
     ],
     "categories": {
@@ -120,5 +144,5 @@ MONTHS_DATA["2026-08"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 998.50, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-05"
+    "lastUpdated": "2026-08-06"
 };
