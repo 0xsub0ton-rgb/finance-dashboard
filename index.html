@@ -130,23 +130,18 @@
         </footer>
     </div>
 
-    <!-- Dynamic cache-busting: version = today's date, resets automatically -->
+    <!-- Load data.js first (defines MONTHS_REGISTRY), then dynamically load all month data files -->
+    <script src="data.js"></script>
     <script>
         (function () {
             var v = Date.now();
-            [
-                'data/february_2026.js',
-                'data/march_2026.js',
-                'data/april_2026.js',
-                'data/may_2026.js',
-                'data/june_2026.js',
-                'data/july_2026.js',
-                'data/august_2026.js',
-                'data.js',
-                'app.js'
-            ].forEach(function (f) {
-                document.write('<script src="' + f + '?v=' + v + '"><\/script>');
-            });
+            // Auto-load all month data files from MONTHS_REGISTRY
+            if (typeof MONTHS_REGISTRY !== 'undefined') {
+                MONTHS_REGISTRY.forEach(function (m) {
+                    document.write('<script src="' + m.file + '?v=' + v + '"><\/script>');
+                });
+            }
+            document.write('<script src="app.js?v=' + v + '"><\/script>');
         })();
     </script>
 </body>
