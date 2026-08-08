@@ -5,12 +5,13 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-08"] = {
     "month": "Август 2026",
     "currency": {
-        "usd_to_vnd": 26233,
+        "usd_to_vnd": 26001,
         "converted": [
-            { "usd": 100, "vnd": 2623300, "rate": 26233, "date": "2026-08-01" }
+            { "usd": 100, "vnd": 2623300, "rate": 26233, "date": "2026-08-01" },
+            { "usd": 400, "vnd": 10400400, "rate": 26001, "date": "2026-08-08" }
         ],
-        "total_usd": 100,
-        "total_vnd": 2623300
+        "total_usd": 500,
+        "total_vnd": 13023700
     },
     "expenses": [
         {
@@ -115,6 +116,20 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 20000, "comment": "" }
             ],
             "total": 87400
+        },
+        {
+            "date": "2026-08-08",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 16000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 11300, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 20000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "rent", "icon": "🏠", "name": "Аренда квартиры", "amount": 8000000, "comment": "Аренда", "oneTime": true },
+                { "category": "rent", "icon": "🏠", "name": "Коммуналка", "amount": 1444000, "comment": "Коммуналка", "oneTime": true }
+            ],
+            "total": 9526300
         }
     ],
     "categories": {
@@ -155,5 +170,5 @@ MONTHS_DATA["2026-08"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 998.50, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-07"
+    "lastUpdated": "2026-08-08"
 };
