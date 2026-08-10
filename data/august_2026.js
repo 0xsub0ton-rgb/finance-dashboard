@@ -140,6 +140,26 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 25000, "comment": "" }
             ],
             "total": 104000
+        },
+        {
+            "date": "2026-08-10",
+            "items": [
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 1000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 34000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 20000, "comment": "" },
+                { "category": "haircut", "icon": "💇", "name": "Барбершоп", "amount": 200000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Стирка", "amount": 18000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 5600, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 13900, "comment": "" },
+                { "category": "water", "icon": "💧", "name": "Вода", "amount": 30000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 140000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 150000, "comment": "" }
+            ],
+            "total": 657500
         }
     ],
     "categories": {
@@ -180,5 +200,5 @@ MONTHS_DATA["2026-08"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 998.50, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-09"
+    "lastUpdated": "2026-08-10"
 };
