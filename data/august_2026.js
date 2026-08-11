@@ -168,13 +168,7 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 25000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 40000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
-                { "category": "water", "icon": "💧", "name": "Вода", "amount": 20000, "comment": "" }
-            ],
-            "total": 118500
-        },
-        {
-            "date": "2026-08-12",
-            "items": [
+                { "category": "water", "icon": "💧", "name": "Вода", "amount": 20000, "comment": "" },
                 { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 18981, "comment": "$0.73" },
                 { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 272750, "comment": "$10.49" },
                 { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 23661, "comment": "$0.91" },
@@ -195,7 +189,7 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 114617, "comment": "135 THB ($4.41)" },
                 { "category": "habits", "icon": "🚬", "name": "Алко (TH)", "amount": 33960, "comment": "40 THB ($1.31)" }
             ],
-            "total": 780641
+            "total": 899141
         }
     ],
     "categories": {
@@ -236,5 +230,5 @@ MONTHS_DATA["2026-08"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 1117.78, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-12"
+    "lastUpdated": "2026-08-11"
 };
