@@ -190,6 +190,22 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "habits", "icon": "🚬", "name": "Алко (TH)", "amount": 33960, "comment": "40 THB ($1.31)" }
             ],
             "total": 899141
+        },
+        {
+            "date": "2026-08-12",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Напиток (TH)", "amount": 44998, "comment": "53 THB ($1.73)" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе (TH)", "amount": 14433, "comment": "17 THB ($0.56)" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе (TH)", "amount": 42451, "comment": "50 THB ($1.63)" },
+                { "category": "water", "icon": "💧", "name": "Вода (TH)", "amount": 50941, "comment": "60 THB ($1.96)" },
+                { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 59431, "comment": "70 THB ($2.29)" },
+                { "category": "habits", "icon": "🚬", "name": "Алко (TH)", "amount": 135842, "comment": "160 THB ($5.22)" },
+                { "category": "mobile", "icon": "📞", "name": "Моб. связь (TH)", "amount": 283511, "comment": "350 THB ($10.90)" },
+                { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 16201, "comment": "20 THB ($0.62)" },
+                { "category": "milk", "icon": "🥛", "name": "Молоко (TH)", "amount": 8100, "comment": "10 THB ($0.31)" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик (TH)", "amount": 8100, "comment": "10 THB ($0.31)" }
+            ],
+            "total": 664008
         }
     ],
     "categories": {
@@ -230,5 +246,5 @@ MONTHS_DATA["2026-08"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 1117.78, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-11"
+    "lastUpdated": "2026-08-12"
 };
