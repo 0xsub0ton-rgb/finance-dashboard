@@ -206,6 +206,22 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "energydrink", "icon": "⚡", "name": "Энергетик (TH)", "amount": 8100, "comment": "10 THB ($0.31)" }
             ],
             "total": 664008
+        },
+        {
+            "date": "2026-08-13",
+            "items": [
+                { "category": "energy", "icon": "🥤", "name": "Напиток (TH)", "amount": 11037, "comment": "13 THB ($0.42)" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 65263, "comment": "$2.51" },
+                { "category": "energydrink", "icon": "⚡", "name": "Редбулл (TH)", "amount": 8172, "comment": "10 THB ($0.31)" },
+                { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 44945, "comment": "55 THB ($1.73)" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты (TH)", "amount": 61288, "comment": "75 THB ($2.36)" },
+                { "category": "milk", "icon": "🥛", "name": "Молоко (TH)", "amount": 40042, "comment": "49 THB ($1.54)" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 25221, "comment": "$0.97" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня (TH)", "amount": 111284, "comment": "$4.28" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт (стаф)", "amount": 622724, "comment": "$23.95" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 80603, "comment": "$3.10" }
+            ],
+            "total": 1070579
         }
     ],
     "categories": {
@@ -246,5 +262,5 @@ MONTHS_DATA["2026-08"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 1117.78, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-12"
+    "lastUpdated": "2026-08-13"
 };
