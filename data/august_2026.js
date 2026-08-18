@@ -260,6 +260,13 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "energydrink", "icon": "⚡", "name": "Энергетик (TH)", "amount": 16980, "comment": "20 THB ($0.65)" }
             ],
             "total": 131204
+        },
+        {
+            "date": "2026-08-17",
+            "items": [
+                { "category": "gifts", "icon": "💝", "name": "Подарок (TH)", "amount": 135842, "comment": "160 THB ($5.22)" }
+            ],
+            "total": 135842
         }
     ],
     "categories": {
@@ -300,5 +307,5 @@ MONTHS_DATA["2026-08"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 1117.78, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-16"
+    "lastUpdated": "2026-08-17"
 };
