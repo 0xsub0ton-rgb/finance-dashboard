@@ -272,6 +272,17 @@ MONTHS_DATA["2026-08"] = {
             "date": "2026-08-18",
             "items": [],
             "total": 0
+        },
+        {
+            "date": "2026-08-19",
+            "items": [
+                { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 333031, "comment": "412.55 THB ($12.81)" },
+                { "category": "habits", "icon": "🚬", "name": "Алко (TH)", "amount": 114186, "comment": "141.45 THB ($4.39)" },
+                { "category": "clothing", "icon": "👟", "name": "Одежда (TH)", "amount": 940456, "comment": "$36.17" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 47842, "comment": "$1.84" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги (TH)", "amount": 61129, "comment": "72 THB ($2.35)" }
+            ],
+            "total": 1496644
         }
     ],
     "categories": {
@@ -311,6 +322,6 @@ MONTHS_DATA["2026-08"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" },
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
-    "income": { "monthly": 1117.78, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-18"
+    "income": { "monthly": 1182.25, "currency": "USD", "additional_vnd": 0 },
+    "lastUpdated": "2026-08-19"
 };
