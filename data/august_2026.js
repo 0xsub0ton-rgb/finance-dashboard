@@ -310,6 +310,11 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 32687, "comment": "38.5 THB ($1.26)" }
             ],
             "total": 562354
+        },
+        {
+            "date": "2026-08-23",
+            "items": [],
+            "total": 0
         }
     ],
     "categories": {
@@ -350,5 +355,5 @@ MONTHS_DATA["2026-08"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 1182.25, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-22"
+    "lastUpdated": "2026-08-23"
 };
