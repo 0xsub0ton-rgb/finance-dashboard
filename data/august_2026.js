@@ -327,9 +327,13 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 34386, "comment": "42 THB ($1.32)" },
                 { "category": "habits", "icon": "🚬", "name": "Сиги (TH)", "amount": 70409, "comment": "86 THB ($2.71)" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт (TH)", "amount": 4245, "comment": "5 THB ($0.16)" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 424506, "comment": "500 THB ($16.33)" }
+                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 424506, "comment": "500 THB ($16.33)" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 25741, "comment": "$0.99" },
+                { "category": "milk", "icon": "🥛", "name": "Молоко", "amount": 33900, "comment": "" },
+                { "category": "habits", "icon": "🍺", "name": "Пиво", "amount": 26400, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 24500, "comment": "" }
             ],
-            "total": 775344
+            "total": 885885
         }
     ],
     "categories": {
