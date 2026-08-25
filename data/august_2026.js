@@ -5,13 +5,14 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-08"] = {
     "month": "Август 2026",
     "currency": {
-        "usd_to_vnd": 26001,
+        "usd_to_vnd": 25869,
         "converted": [
             { "usd": 100, "vnd": 2623300, "rate": 26233, "date": "2026-08-01" },
-            { "usd": 400, "vnd": 10400400, "rate": 26001, "date": "2026-08-08" }
+            { "usd": 400, "vnd": 10400400, "rate": 26001, "date": "2026-08-08" },
+            { "usd": 100, "vnd": 2586900, "rate": 25869, "date": "2026-08-25" }
         ],
-        "total_usd": 500,
-        "total_vnd": 13023700
+        "total_usd": 600,
+        "total_vnd": 15610600
     },
     "expenses": [
         {
@@ -334,6 +335,29 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 24500, "comment": "" }
             ],
             "total": 885885
+        },
+        {
+            "date": "2026-08-25",
+            "items": [
+                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 14228, "comment": "$0.55" },
+                { "category": "subscriptions", "icon": "📱", "name": "Подписка Grab", "amount": 27939, "comment": "$1.08" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 22000, "comment": "" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 16000, "comment": "" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 15000, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 1500, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 40000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 51800, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 29000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 7500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 86000, "comment": "" },
+                { "category": "milk", "icon": "🥛", "name": "Молоко", "amount": 24000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 9400, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 35000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 14400, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 45000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 125000, "comment": "" }
+            ],
+            "total": 563767
         }
     ],
     "categories": {
@@ -374,5 +398,5 @@ MONTHS_DATA["2026-08"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 1182.25, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-24"
+    "lastUpdated": "2026-08-25"
 };
