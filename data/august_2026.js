@@ -5,14 +5,15 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-08"] = {
     "month": "Август 2026",
     "currency": {
-        "usd_to_vnd": 25869,
+        "usd_to_vnd": 25841,
         "converted": [
             { "usd": 100, "vnd": 2623300, "rate": 26233, "date": "2026-08-01" },
             { "usd": 400, "vnd": 10400400, "rate": 26001, "date": "2026-08-08" },
-            { "usd": 100, "vnd": 2586900, "rate": 25869, "date": "2026-08-25" }
+            { "usd": 100, "vnd": 2586900, "rate": 25869, "date": "2026-08-25" },
+            { "usd": 100, "vnd": 2584100, "rate": 25841, "date": "2026-08-28" }
         ],
-        "total_usd": 600,
-        "total_vnd": 15610600
+        "total_usd": 700,
+        "total_vnd": 18194700
     },
     "expenses": [
         {
@@ -382,6 +383,40 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" }
             ],
             "total": 76000
+        },
+        {
+            "date": "2026-08-28",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 34000, "comment": "" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 10000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Аренда байка", "amount": 120000, "comment": "Аренда байка" },
+                { "category": "gifts", "icon": "💝", "name": "Цветы", "amount": 300000, "comment": "Цветы" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 18000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 80000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 22000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 85000, "comment": "" },
+                { "category": "gifts", "icon": "💝", "name": "Подарок (Duck Station)", "amount": 250000, "comment": "Duck Station" },
+                { "category": "gifts", "icon": "💝", "name": "Подарок (катание на лодке)", "amount": 220000, "comment": "Катание на лодке" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 34000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 50000, "comment": "" },
+                { "category": "habits", "icon": "🍺", "name": "Алко", "amount": 170000, "comment": "" },
+                { "category": "habits", "icon": "🍺", "name": "Алко", "amount": 100300, "comment": "" },
+                { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 5000, "comment": "Туалет" },
+                { "category": "habits", "icon": "🍺", "name": "Алко", "amount": 170000, "comment": "" },
+                { "category": "habits", "icon": "🍺", "name": "Алко", "amount": 170000, "comment": "" },
+                { "category": "habits", "icon": "🍺", "name": "Алко", "amount": 170000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 100000, "comment": "" },
+                { "category": "habits", "icon": "🍺", "name": "Алко", "amount": 30000, "comment": "" },
+                { "category": "habits", "icon": "🍺", "name": "Алко", "amount": 80000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 21000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 36100, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 27800, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 19500, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 20400, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 20400, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 18200, "comment": "" }
+            ],
+            "total": 2382700
         }
     ],
     "categories": {
@@ -422,5 +457,5 @@ MONTHS_DATA["2026-08"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 1182.25, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-08-27"
+    "lastUpdated": "2026-08-28"
 };
