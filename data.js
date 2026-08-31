@@ -8,7 +8,8 @@ const MONTHS_REGISTRY = [
     { id: "2026-05", label: "Май 2026", file: "data/may_2026.js" },
     { id: "2026-06", label: "Июнь 2026", file: "data/june_2026.js" },
     { id: "2026-07", label: "Июль 2026", file: "data/july_2026.js" },
-    { id: "2026-08", label: "Август 2026", file: "data/august_2026.js" }
+    { id: "2026-08", label: "Август 2026", file: "data/august_2026.js" },
+    { id: "2026-09", label: "Сентябрь 2026", file: "data/september_2026.js" }
 ];
 
 // MONTHS_DATA is populated by individual month files (e.g. data/february_2026.js)
