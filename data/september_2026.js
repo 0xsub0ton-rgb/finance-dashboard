@@ -13,8 +13,14 @@ MONTHS_DATA["2026-09"] = {
     "expenses": [
         {
             "date": "2026-09-01",
-            "items": [],
-            "total": 0
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 34000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 80000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 20000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 32000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" }
+            ],
+            "total": 183000
         }
     ],
     "categories": {
