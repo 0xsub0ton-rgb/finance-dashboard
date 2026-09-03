@@ -88,6 +88,6 @@ MONTHS_DATA["2026-09"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" },
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
-    "income": { "monthly": 0, "currency": "USD", "additional_vnd": 2371081 },
+    "income": { "monthly": 1000, "currency": "USD", "additional_vnd": 2371081 },
     "lastUpdated": "2026-09-03"
 };
