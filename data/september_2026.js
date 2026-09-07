@@ -5,10 +5,12 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-09"] = {
     "month": "Сентябрь 2026",
     "currency": {
-        "usd_to_vnd": 25841,
-        "converted": [],
-        "total_usd": 0,
-        "total_vnd": 0
+        "usd_to_vnd": 25867,
+        "converted": [
+            { "usd": 520.55, "vnd": 13465286, "rate": 25867, "date": "2026-09-06" }
+        ],
+        "total_usd": 520.55,
+        "total_vnd": 13465286
     },
     "expenses": [
         {
@@ -81,6 +83,16 @@ MONTHS_DATA["2026-09"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 59800, "comment": "" }
             ],
             "total": 520900
+        },
+        {
+            "date": "2026-09-06",
+            "items": [
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 37000, "comment": "" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 44000, "comment": "" },
+                { "category": "health", "icon": "❤️", "name": "Стоматолог", "amount": 400000, "comment": "" }
+            ],
+            "total": 496000
         }
     ],
     "categories": {
@@ -121,5 +133,5 @@ MONTHS_DATA["2026-09"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 1000, "currency": "USD", "additional_vnd": 2371081 },
-    "lastUpdated": "2026-09-05"
+    "lastUpdated": "2026-09-06"
 };
