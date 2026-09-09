@@ -5,12 +5,13 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-09"] = {
     "month": "Сентябрь 2026",
     "currency": {
-        "usd_to_vnd": 25867,
+        "usd_to_vnd": 25676,
         "converted": [
-            { "usd": 520.55, "vnd": 13465286, "rate": 25867, "date": "2026-09-06" }
+            { "usd": 520.55, "vnd": 13465286, "rate": 25867, "date": "2026-09-06" },
+            { "usd": 39.27, "vnd": 1008234, "rate": 25676, "date": "2026-09-09" }
         ],
-        "total_usd": 520.55,
-        "total_vnd": 13465286
+        "total_usd": 559.82,
+        "total_vnd": 14473520
     },
     "expenses": [
         {
@@ -116,6 +117,19 @@ MONTHS_DATA["2026-09"] = {
                 { "category": "rent", "icon": "🏠", "name": "Коммуналка", "amount": 1065000, "comment": "Коммуналка", "oneTime": true }
             ],
             "total": 9141600
+        },
+        {
+            "date": "2026-09-09",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 34000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 40000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Транспорт", "amount": 5000, "comment": "" },
+                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 85000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 10000, "comment": "" },
+                { "category": "visa", "icon": "🛂", "name": "Виза-ран", "amount": 2567600, "comment": "100 USD", "oneTime": true }
+            ],
+            "total": 2756600
         }
     ],
     "categories": {
@@ -156,5 +170,5 @@ MONTHS_DATA["2026-09"] = {
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
     "income": { "monthly": 1000, "currency": "USD", "additional_vnd": 2371081 },
-    "lastUpdated": "2026-09-08"
+    "lastUpdated": "2026-09-09"
 };
