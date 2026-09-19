@@ -5,13 +5,14 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-09"] = {
     "month": "Сентябрь 2026",
     "currency": {
-        "usd_to_vnd": 25676,
+        "usd_to_vnd": 25846,
         "converted": [
             { "usd": 520.55, "vnd": 13465286, "rate": 25867, "date": "2026-09-06" },
-            { "usd": 39.27, "vnd": 1008234, "rate": 25676, "date": "2026-09-09" }
+            { "usd": 39.27, "vnd": 1008234, "rate": 25676, "date": "2026-09-09" },
+            { "usd": 200, "vnd": 5169200, "rate": 25846, "date": "2026-09-19" }
         ],
-        "total_usd": 559.82,
-        "total_vnd": 14473520
+        "total_usd": 759.82,
+        "total_vnd": 19642720
     },
     "expenses": [
         {
@@ -246,6 +247,20 @@ MONTHS_DATA["2026-09"] = {
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 13900, "comment": "" }
             ],
             "total": 198300
+        },
+        {
+            "date": "2026-09-19",
+            "items": [
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 18000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 30000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 30000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 34000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 28000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" }
+            ],
+            "total": 180000
         }
     ],
     "categories": {
@@ -285,6 +300,6 @@ MONTHS_DATA["2026-09"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" },
         "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
     },
-    "income": { "monthly": 1034.40, "currency": "USD", "additional_vnd": 2371081 },
-    "lastUpdated": "2026-09-18"
+    "income": { "monthly": 1053.78, "currency": "USD", "additional_vnd": 2371081 },
+    "lastUpdated": "2026-09-19"
 };
