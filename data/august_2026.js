@@ -21,7 +21,7 @@ MONTHS_DATA["2026-08"] = {
             "items": [
                 { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 17000, "comment": "" },
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 38000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 38000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 9000, "comment": "" },
                 { "category": "water", "icon": "💧", "name": "Вода", "amount": 30000, "comment": "" },
                 { "category": "milk", "icon": "🥛", "name": "Молоко", "amount": 47000, "comment": "" },
@@ -91,7 +91,7 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 10000, "comment": "" },
                 { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 35000, "comment": "" },
                 { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 17000, "comment": "" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 40000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 40000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 6800, "comment": "" },
                 { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 28500, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 7200, "comment": "" },
@@ -167,13 +167,13 @@ MONTHS_DATA["2026-08"] = {
             "date": "2026-08-11",
             "items": [
                 { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 13500, "comment": "" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 25000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 25000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 40000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
                 { "category": "water", "icon": "💧", "name": "Вода", "amount": 20000, "comment": "" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 18981, "comment": "$0.73" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 272750, "comment": "$10.49" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 23661, "comment": "$0.91" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 18981, "comment": "$0.73" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 272750, "comment": "$10.49" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 23661, "comment": "$0.91" },
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 34047, "comment": "41 THB ($1.31)" },
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 8304, "comment": "10 THB ($0.32)" },
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 11626, "comment": "14 THB ($0.45)" },
@@ -213,15 +213,15 @@ MONTHS_DATA["2026-08"] = {
             "date": "2026-08-13",
             "items": [
                 { "category": "energy", "icon": "🥤", "name": "Напиток (TH)", "amount": 11037, "comment": "13 THB ($0.42)" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 65263, "comment": "$2.51" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 65263, "comment": "$2.51" },
                 { "category": "energydrink", "icon": "⚡", "name": "Редбулл (TH)", "amount": 8172, "comment": "10 THB ($0.31)" },
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 44945, "comment": "55 THB ($1.73)" },
                 { "category": "fruits", "icon": "🍎", "name": "Фрукты (TH)", "amount": 61288, "comment": "75 THB ($2.36)" },
                 { "category": "milk", "icon": "🥛", "name": "Молоко (TH)", "amount": 40042, "comment": "49 THB ($1.54)" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 25221, "comment": "$0.97" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 25221, "comment": "$0.97" },
                 { "category": "coffee", "icon": "☕", "name": "Кофейня (TH)", "amount": 111284, "comment": "$4.28" },
                 { "category": "habits", "icon": "🚬", "name": "Стаф", "amount": 622724, "comment": "$23.95" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 80603, "comment": "$3.10" }
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 80603, "comment": "$3.10" }
             ],
             "total": 1070579
         },
@@ -248,9 +248,9 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "laundry", "icon": "🧺", "name": "Стирка (TH)", "amount": 66223, "comment": "78 THB ($2.55)" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток (TH)", "amount": 28017, "comment": "33 THB ($1.08)" },
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 12735, "comment": "15 THB ($0.49)" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 52522, "comment": "$2.02" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 100364, "comment": "$3.86" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 173687, "comment": "$6.68" }
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 52522, "comment": "$2.02" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 100364, "comment": "$3.86" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 173687, "comment": "$6.68" }
             ],
             "total": 459018
         },
@@ -258,7 +258,7 @@ MONTHS_DATA["2026-08"] = {
             "date": "2026-08-16",
             "items": [
                 { "category": "energy", "icon": "🥤", "name": "Напиток (TH)", "amount": 16980, "comment": "20 THB ($0.65)" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 97244, "comment": "$3.74" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 97244, "comment": "$3.74" },
                 { "category": "energydrink", "icon": "⚡", "name": "Энергетик (TH)", "amount": 16980, "comment": "20 THB ($0.65)" }
             ],
             "total": 131204
@@ -281,7 +281,7 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 333031, "comment": "412.55 THB ($12.81)" },
                 { "category": "habits", "icon": "🚬", "name": "Алко (TH)", "amount": 114186, "comment": "141.45 THB ($4.39)" },
                 { "category": "clothing", "icon": "👟", "name": "Одежда (TH)", "amount": 940456, "comment": "$36.17" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 47842, "comment": "$1.84" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 47842, "comment": "$1.84" },
                 { "category": "habits", "icon": "🚬", "name": "Сиги (TH)", "amount": 61129, "comment": "72 THB ($2.35)" }
             ],
             "total": 1496644
@@ -289,7 +289,7 @@ MONTHS_DATA["2026-08"] = {
         {
             "date": "2026-08-20",
             "items": [
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 16980, "comment": "20 THB ($0.65)" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 16980, "comment": "20 THB ($0.65)" },
                 { "category": "habits", "icon": "🚬", "name": "Сиги (TH)", "amount": 183387, "comment": "216 THB ($7.05)" },
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 83463, "comment": "$3.21" },
                 { "category": "habits", "icon": "🚬", "name": "Стаф (TH)", "amount": 165557, "comment": "195 THB ($6.37)" }
@@ -307,7 +307,7 @@ MONTHS_DATA["2026-08"] = {
             "date": "2026-08-22",
             "items": [
                 { "category": "gifts", "icon": "💝", "name": "Подарок (TH)", "amount": 401975, "comment": "$15.46" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 66563, "comment": "$2.56" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 66563, "comment": "$2.56" },
                 { "category": "habits", "icon": "🚬", "name": "Сиги (TH)", "amount": 61129, "comment": "72 THB ($2.35)" },
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 32687, "comment": "38.5 THB ($1.26)" }
             ],
@@ -321,7 +321,7 @@ MONTHS_DATA["2026-08"] = {
         {
             "date": "2026-08-24",
             "items": [
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 49402, "comment": "$1.90" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 49402, "comment": "$1.90" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток (TH)", "amount": 18830, "comment": "23 THB ($0.72)" },
                 { "category": "energydrink", "icon": "⚡", "name": "Энергетик (TH)", "amount": 9824, "comment": "12 THB ($0.38)" },
                 { "category": "habits", "icon": "🚬", "name": "Алко (TH)", "amount": 37661, "comment": "46 THB ($1.45)" },
@@ -329,8 +329,8 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда (TH)", "amount": 34386, "comment": "42 THB ($1.32)" },
                 { "category": "habits", "icon": "🚬", "name": "Сиги (TH)", "amount": 70409, "comment": "86 THB ($2.71)" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт (TH)", "amount": 4245, "comment": "5 THB ($0.16)" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси (TH)", "amount": 424506, "comment": "500 THB ($16.33)" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 25741, "comment": "$0.99" },
+                { "category": "transport", "icon": "🚕", "name": "Такси (TH)", "amount": 424506, "comment": "500 THB ($16.33)" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 25741, "comment": "$0.99" },
                 { "category": "milk", "icon": "🥛", "name": "Молоко", "amount": 33900, "comment": "" },
                 { "category": "habits", "icon": "🍺", "name": "Пиво", "amount": 26400, "comment": "" },
                 { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 24500, "comment": "" }
@@ -340,11 +340,11 @@ MONTHS_DATA["2026-08"] = {
         {
             "date": "2026-08-25",
             "items": [
-                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 14228, "comment": "$0.55" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 14228, "comment": "$0.55" },
                 { "category": "subscriptions", "icon": "📱", "name": "Подписка Grab", "amount": 27939, "comment": "$1.08" },
                 { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 22000, "comment": "" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 16000, "comment": "" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 15000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 16000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 15000, "comment": "" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 1500, "comment": "" },
                 { "category": "laundry", "icon": "🧺", "name": "Быт", "amount": 40000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 51800, "comment": "" },
@@ -388,7 +388,7 @@ MONTHS_DATA["2026-08"] = {
             "date": "2026-08-28",
             "items": [
                 { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 34000, "comment": "" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 10000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 10000, "comment": "" },
                 { "category": "transport", "icon": "🚕", "name": "Аренда байка", "amount": 120000, "comment": "Аренда байка" },
                 { "category": "gifts", "icon": "💝", "name": "Цветы", "amount": 300000, "comment": "Цветы" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 18000, "comment": "" },
@@ -424,7 +424,7 @@ MONTHS_DATA["2026-08"] = {
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 30000, "comment": "" },
                 { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15000, "comment": "" },
                 { "category": "transport", "icon": "🚕", "name": "Аренда байка", "amount": 60000, "comment": "Аренда байка" },
-                { "category": "taxi", "icon": "🚕", "name": "Такси", "amount": 10000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 10000, "comment": "" },
                 { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 34000, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 16600, "comment": "" },
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 4700, "comment": "" },
@@ -491,8 +491,7 @@ MONTHS_DATA["2026-08"] = {
         "travel": { "icon": "✈️", "name": "Путешествия", "color": "#26C6DA" },
         "repair": { "icon": "🔧", "name": "Ремонт", "color": "#FF7043" },
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
-        "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" },
-        "taxi": { "icon": "🚕", "name": "Такси", "color": "#FFB300" }
+        "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1182.25, "currency": "USD", "additional_vnd": 0 },
     "lastUpdated": "2026-08-31"

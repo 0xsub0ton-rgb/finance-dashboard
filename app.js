@@ -258,8 +258,9 @@ class ExpenseDashboard {
         const totals = {};
         this.data.expenses.forEach(day => {
             day.items.forEach(item => {
-                if (!totals[item.category]) totals[item.category] = 0;
-                totals[item.category] += item.amount;
+                const cat = item.category === 'taxi' ? 'transport' : item.category;
+                if (!totals[cat]) totals[cat] = 0;
+                totals[cat] += item.amount;
             });
         });
         return totals;
