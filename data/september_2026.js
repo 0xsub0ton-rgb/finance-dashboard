@@ -290,6 +290,14 @@ MONTHS_DATA["2026-09"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 28000, "comment": "" }
             ],
             "total": 162000
+        },
+        {
+            "date": "2026-09-22",
+            "items": [
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "health", "icon": "❤️", "name": "Лекарства", "amount": 12000, "comment": "" }
+            ],
+            "total": 29000
         }
     ],
     "categories": {
@@ -329,5 +337,5 @@ MONTHS_DATA["2026-09"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1053.78, "currency": "USD", "additional_vnd": 2371081 },
-    "lastUpdated": "2026-09-21"
+    "lastUpdated": "2026-09-22"
 };
