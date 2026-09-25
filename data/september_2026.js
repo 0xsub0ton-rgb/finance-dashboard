@@ -325,6 +325,21 @@ MONTHS_DATA["2026-09"] = {
                 { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 40000, "comment": "" }
             ],
             "total": 107000
+        },
+        {
+            "date": "2026-09-25",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 34000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Подписка Grab", "amount": 27914, "comment": "$1.08" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 28000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Транспорт", "amount": 5000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 40000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 13900, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 18000, "comment": "" }
+            ],
+            "total": 193814
         }
     ],
     "categories": {
@@ -363,6 +378,6 @@ MONTHS_DATA["2026-09"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 1053.78, "currency": "USD", "additional_vnd": 2371081 },
-    "lastUpdated": "2026-09-24"
+    "income": { "monthly": 1055.76, "currency": "USD", "additional_vnd": 2371081 },
+    "lastUpdated": "2026-09-25"
 };
