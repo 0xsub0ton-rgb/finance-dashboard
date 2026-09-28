@@ -370,6 +370,24 @@ MONTHS_DATA["2026-09"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 34900, "comment": "" }
             ],
             "total": 293100
+        },
+        {
+            "date": "2026-09-28",
+            "items": [
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 34000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 8600, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 6000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 4600, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 4700, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 7400, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 20000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 10000, "comment": "" },
+                { "category": "mobile", "icon": "📞", "name": "Сотовый тариф", "amount": 405000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 13900, "comment": "" },
+                { "category": "milk", "icon": "🥛", "name": "Молоко", "amount": 27000, "comment": "" }
+            ],
+            "total": 556200
         }
     ],
     "categories": {
@@ -409,5 +427,5 @@ MONTHS_DATA["2026-09"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1055.76, "currency": "USD", "additional_vnd": 2371081 },
-    "lastUpdated": "2026-09-27"
+    "lastUpdated": "2026-09-28"
 };
