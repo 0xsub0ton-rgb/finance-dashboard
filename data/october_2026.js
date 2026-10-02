@@ -24,6 +24,23 @@ MONTHS_DATA["2026-10"] = {
                 { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 28000, "comment": "" }
             ],
             "total": 184000
+        },
+        {
+            "date": "2026-10-02",
+            "items": [
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 15000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 49900, "comment": "" },
+                { "category": "habits", "icon": "🍺", "name": "Алко", "amount": 34100, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 20000, "comment": "" },
+                { "category": "entertainment", "icon": "🎭", "name": "Развлечения", "amount": 33000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "milk", "icon": "🥛", "name": "Молоко", "amount": 31500, "comment": "" },
+                { "category": "habits", "icon": "🍺", "name": "Алко", "amount": 27200, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 44500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 24800, "comment": "" }
+            ],
+            "total": 312000
         }
     ],
     "categories": {
@@ -63,5 +80,5 @@ MONTHS_DATA["2026-10"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 87.5, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-10-01"
+    "lastUpdated": "2026-10-02"
 };
