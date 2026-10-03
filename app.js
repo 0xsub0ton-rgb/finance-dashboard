@@ -16,6 +16,13 @@ class ExpenseDashboard {
                 icon: '🍽️',
                 color: '#FF6384',
                 subcategories: ['food', 'fruits', 'milk']
+            },
+            drinks_group: {
+                id: 'drinks_group',
+                name: 'Напитки и кофе',
+                icon: '☕',
+                color: '#36A2EB',
+                subcategories: ['coffee', 'energy', 'energydrink', 'water', 'tea']
             }
         };
 
