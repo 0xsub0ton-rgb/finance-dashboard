@@ -41,6 +41,35 @@ MONTHS_DATA["2026-10"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 24800, "comment": "" }
             ],
             "total": 312000
+        },
+        {
+            "date": "2026-10-03",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 61000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 7500, "comment": "" },
+                { "category": "fruits", "icon": "🍎", "name": "Фрукты", "amount": 29400, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 9000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 20000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 15000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 40000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 40000, "comment": "" },
+                { "category": "habits", "icon": "🍺", "name": "Алко", "amount": 15000, "comment": "" },
+                { "category": "milk", "icon": "🥛", "name": "Молоко", "amount": 73800, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 15300, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 13500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 20000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 3500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 96000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 59800, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 29000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 21600, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 5000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 10000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 4200, "comment": "" }
+            ],
+            "total": 622600
         }
     ],
     "categories": {
@@ -80,5 +109,5 @@ MONTHS_DATA["2026-10"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 87.5, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-10-02"
+    "lastUpdated": "2026-10-03"
 };
