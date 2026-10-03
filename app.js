@@ -8,6 +8,16 @@ class ExpenseDashboard {
         this.charts = {};
         this.currentCurrency = localStorage.getItem('dashboard_currency') || 'VND';
         this.fixedCategories = ['rent', 'visa', 'insurance', 'savings'];
+        this.currentDrilldown = null;
+        this.categoryGroups = {
+            food_group: {
+                id: 'food_group',
+                name: 'Еда и продукты',
+                icon: '🍽️',
+                color: '#FF6384',
+                subcategories: ['food', 'fruits', 'milk']
+            }
+        };
 
         // Multi-month: default to last month in registry (latest)
         this.currentMonthIndex = (typeof MONTHS_REGISTRY !== 'undefined')
@@ -55,6 +65,7 @@ class ExpenseDashboard {
     }
 
     onMonthChange() {
+        this.currentDrilldown = null;
         window._currentMonthId = this.getCurrentMonthId();
         this.loadData();
         this.updateMonthNavUI();
@@ -138,6 +149,12 @@ class ExpenseDashboard {
         const nextBtn = document.getElementById('nextMonth');
         if (prevBtn) prevBtn.onclick = () => this.prevMonth();
         if (nextBtn) nextBtn.onclick = () => this.nextMonth();
+
+        // Pie chart drill-down navigation
+        const pieBackBtn = document.getElementById('pieBackBtn');
+        if (pieBackBtn) {
+            pieBackBtn.onclick = () => this.drillUpCategory();
+        }
     }
 
     // ========================================
@@ -254,8 +271,9 @@ class ExpenseDashboard {
         return totalVariable / days;
     }
 
-    getCategoryTotals() {
+    getRawCategoryTotals() {
         const totals = {};
+        if (!this.data || !this.data.expenses) return totals;
         this.data.expenses.forEach(day => {
             day.items.forEach(item => {
                 const cat = item.category === 'taxi' ? 'transport' : item.category;
@@ -264,6 +282,20 @@ class ExpenseDashboard {
             });
         });
         return totals;
+    }
+
+    getCategoryTotals() {
+        return this.getRawCategoryTotals();
+    }
+
+    drillDownCategory(groupId) {
+        this.currentDrilldown = groupId;
+        this.renderPieChart();
+    }
+
+    drillUpCategory() {
+        this.currentDrilldown = null;
+        this.renderPieChart();
     }
 
     renderStats() {
@@ -329,23 +361,82 @@ class ExpenseDashboard {
         const ctx = canvas.getContext('2d');
         if (this.charts.pie) this.charts.pie.destroy();
 
-        const categoryTotals = this.getCategoryTotals();
+        const pieBackBtn = document.getElementById('pieBackBtn');
+        const pieChartTitle = document.getElementById('pieChartTitle');
+
+        const rawTotals = this.getRawCategoryTotals();
         const labels = [];
         const data = [];
         const colors = [];
         const categoryKeys = [];
+        let isDrilldown = false;
+        let drillGroup = null;
 
-        Object.entries(categoryTotals)
-            .sort((a, b) => b[1] - a[1])
-            .forEach(([key, value]) => {
-                const cat = this.data.categories[key];
-                if (cat) {
-                    labels.push(cat.icon + ' ' + cat.name);
-                    data.push(this.currentCurrency === 'USD' ? this.vndToUsd(value) : value);
-                    colors.push(cat.color);
-                    categoryKeys.push(key);
+        if (this.currentDrilldown && this.categoryGroups[this.currentDrilldown]) {
+            isDrilldown = true;
+            drillGroup = this.categoryGroups[this.currentDrilldown];
+
+            if (pieBackBtn) pieBackBtn.style.display = 'inline-flex';
+            if (pieChartTitle) pieChartTitle.innerHTML = `${drillGroup.icon} ${drillGroup.name} <span class="chart-subtitle">(разбивка)</span>`;
+
+            drillGroup.subcategories.forEach(subKey => {
+                const amount = rawTotals[subKey] || 0;
+                if (amount > 0) {
+                    const catMeta = this.data.categories[subKey] || { name: subKey, icon: '', color: '#999' };
+                    labels.push(catMeta.icon + ' ' + catMeta.name);
+                    data.push(this.currentCurrency === 'USD' ? this.vndToUsd(amount) : amount);
+                    colors.push(catMeta.color);
+                    categoryKeys.push(subKey);
                 }
             });
+        } else {
+            if (pieBackBtn) pieBackBtn.style.display = 'none';
+            if (pieChartTitle) pieChartTitle.innerHTML = `📊 Структура расходов`;
+
+            const groupedTotals = {};
+            const groupedMeta = {};
+
+            Object.entries(this.categoryGroups).forEach(([gId, group]) => {
+                groupedTotals[gId] = 0;
+                groupedMeta[gId] = {
+                    name: group.name,
+                    icon: group.icon,
+                    color: group.color,
+                    isGroup: true
+                };
+            });
+
+            Object.entries(rawTotals).forEach(([catKey, amount]) => {
+                if (amount <= 0) return;
+                let foundGroup = null;
+                for (const [gId, group] of Object.entries(this.categoryGroups)) {
+                    if (group.subcategories.includes(catKey)) {
+                        foundGroup = gId;
+                        break;
+                    }
+                }
+
+                if (foundGroup) {
+                    groupedTotals[foundGroup] += amount;
+                } else {
+                    groupedTotals[catKey] = amount;
+                    groupedMeta[catKey] = this.data.categories[catKey] || { name: catKey, icon: '', color: '#999' };
+                }
+            });
+
+            Object.entries(groupedTotals)
+                .filter(([_, val]) => val > 0)
+                .sort((a, b) => b[1] - a[1])
+                .forEach(([key, value]) => {
+                    const meta = groupedMeta[key];
+                    if (meta) {
+                        labels.push(meta.icon + ' ' + meta.name + (meta.isGroup ? ' ▾' : ''));
+                        data.push(this.currentCurrency === 'USD' ? this.vndToUsd(value) : value);
+                        colors.push(meta.color);
+                        categoryKeys.push(key);
+                    }
+                });
+        }
 
         // Handle empty data
         if (data.length === 0) {
@@ -356,6 +447,8 @@ class ExpenseDashboard {
             ctx.fillText('Нет данных за этот месяц', canvas.width / 2, canvas.height / 2);
             return;
         }
+
+        const chartTotal = data.reduce((a, b) => a + b, 0);
 
         this.charts.pie = new Chart(ctx, {
             type: 'doughnut',
@@ -374,19 +467,26 @@ class ExpenseDashboard {
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
+                onHover: (event, activeElements) => {
+                    canvas.style.cursor = activeElements.length ? 'pointer' : 'default';
+                },
                 plugins: {
                     legend: {
                         position: 'bottom',
                         labels: {
                             color: '#94a3b8',
                             usePointStyle: true,
-                            padding: 20,
-                            font: { size: 14 }
+                            padding: 16,
+                            font: { size: 13 }
                         },
                         onClick: (e, legendItem, legend) => {
                             const index = legendItem.index;
-                            if (categoryKeys[index]) {
-                                this.showCategoryDetails(categoryKeys[index]);
+                            const key = categoryKeys[index];
+                            if (!key) return;
+                            if (this.categoryGroups[key]) {
+                                this.drillDownCategory(key);
+                            } else {
+                                this.showCategoryDetails(key);
                             }
                         },
                         onHover: (event, legendItem, legend) => {
@@ -409,9 +509,14 @@ class ExpenseDashboard {
                         callbacks: {
                             label: (context) => {
                                 const val = context.parsed;
-                                const total = context.dataset.data.reduce((a, b) => a + b, 0);
-                                const pct = ((val / total) * 100).toFixed(1);
-                                return (this.currentCurrency === 'USD' ? this.formatUSD(val) : this.formatVND(val)) + ` (${pct}%)`;
+                                const pct = ((val / chartTotal) * 100).toFixed(1);
+                                const formattedVal = this.currentCurrency === 'USD' ? this.formatUSD(val) : this.formatVND(val);
+                                if (isDrilldown) {
+                                    return `${context.label}: ${formattedVal} (${pct}% от ${drillGroup.name.toLowerCase()})`;
+                                }
+                                const isGrp = this.categoryGroups[categoryKeys[context.dataIndex]];
+                                const hint = isGrp ? ' — нажмите для разбивки' : '';
+                                return `${context.label.replace(' ▾', '')}: ${formattedVal} (${pct}%)${hint}`;
                             }
                         }
                     }
@@ -419,15 +524,23 @@ class ExpenseDashboard {
             }
         });
 
-        // Native Click Handler for Chart Segments
+        // Click Handler for Chart Segments
         canvas.onclick = (evt) => {
             const points = this.charts.pie.getElementsAtEventForMode(evt, 'nearest', { intersect: true }, true);
             if (points.length) {
                 const firstPoint = points[0];
                 const index = firstPoint.index;
-                if (categoryKeys[index]) {
-                    this.showCategoryDetails(categoryKeys[index]);
+                const key = categoryKeys[index];
+                if (!key) return;
+
+                if (!isDrilldown && this.categoryGroups[key]) {
+                    this.drillDownCategory(key);
+                } else {
+                    this.showCategoryDetails(key);
                 }
+            } else if (isDrilldown) {
+                // Click in center hole returns to all categories
+                this.drillUpCategory();
             }
         };
     }
@@ -515,8 +628,22 @@ class ExpenseDashboard {
     // Modals
     // ========================================
 
-    showCategoryDetails(categoryKey) {
-        const cat = this.data.categories[categoryKey];
+    showCategoryDetails(categoryKey, activeSubFilter = null) {
+        let cat = this.data.categories[categoryKey];
+        const group = this.categoryGroups[categoryKey];
+        let subCategories = null;
+
+        if (group) {
+            cat = {
+                name: group.name,
+                icon: group.icon,
+                color: group.color
+            };
+            subCategories = activeSubFilter ? [activeSubFilter] : group.subcategories;
+        } else {
+            subCategories = [categoryKey];
+        }
+
         if (!cat) return;
 
         const modal = document.getElementById('categoryModal');
@@ -524,15 +651,25 @@ class ExpenseDashboard {
 
         document.querySelector('.modal-container').classList.remove('modal-narrow');
 
-        document.getElementById('modalTitle').textContent = cat.name;
-        document.getElementById('modalIcon').textContent = cat.icon;
+        const titleText = group && activeSubFilter && this.data.categories[activeSubFilter]
+            ? `${group.name} — ${this.data.categories[activeSubFilter].name}`
+            : cat.name;
+        const iconText = group && activeSubFilter && this.data.categories[activeSubFilter]
+            ? this.data.categories[activeSubFilter].icon
+            : cat.icon;
+
+        document.getElementById('modalTitle').textContent = titleText;
+        document.getElementById('modalIcon').textContent = iconText;
 
         const byDate = {};
         const expenseByDay = {};
         let categoryTotal = 0;
 
         this.data.expenses.forEach(day => {
-            const items = day.items.filter(i => i.category === categoryKey);
+            const items = day.items.filter(i => {
+                const itemCat = i.category === 'taxi' ? 'transport' : i.category;
+                return subCategories.includes(itemCat);
+            });
             if (items.length > 0) {
                 byDate[day.date] = items;
                 const daySum = items.reduce((s, i) => s + i.amount, 0);
@@ -544,6 +681,34 @@ class ExpenseDashboard {
         const totalUsd = this.vndToUsd(categoryTotal);
         const { daysInMonth, firstDayOfWeek } = this.getMonthInfo();
         const weekDays = ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'];
+
+        // Subcategory tabs if this is a group
+        let tabsHtml = '';
+        if (group) {
+            const rawTotals = this.getRawCategoryTotals();
+            const groupTotal = group.subcategories.reduce((s, k) => s + (rawTotals[k] || 0), 0);
+
+            tabsHtml = `
+                <div class="modal-subcat-tabs">
+                    <button class="subcat-tab-btn ${!activeSubFilter ? 'active' : ''}" 
+                            onclick="expenseDashboard.showCategoryDetails('${categoryKey}', null)">
+                        Все (${this.formatVND(groupTotal)})
+                    </button>
+                    ${group.subcategories.map(subKey => {
+                        const subCat = this.data.categories[subKey] || { name: subKey, icon: '' };
+                        const subAmt = rawTotals[subKey] || 0;
+                        if (subAmt <= 0) return '';
+                        const isActive = activeSubFilter === subKey;
+                        return `
+                            <button class="subcat-tab-btn ${isActive ? 'active' : ''}" 
+                                    onclick="expenseDashboard.showCategoryDetails('${categoryKey}', '${subKey}')">
+                                ${subCat.icon} ${subCat.name} (${this.formatVND(subAmt)})
+                            </button>
+                        `;
+                    }).join('')}
+                </div>
+            `;
+        }
 
         let calendarHtml = `
             <div style="margin-bottom: 1.5rem;">
@@ -592,6 +757,7 @@ class ExpenseDashboard {
                 <div style="font-size: 1.5rem; font-weight: 700; color: #22c55e;">${this.formatVND(categoryTotal)}</div>
                 <div style="color: #64748b;">~${this.formatUSD(totalUsd)}</div>
             </div>
+            ${tabsHtml}
             ${calendarHtml}
         `;
 

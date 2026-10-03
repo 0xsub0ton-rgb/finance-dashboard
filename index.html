@@ -91,7 +91,10 @@
             <!-- Charts Row -->
             <section class="charts-row">
                 <div class="chart-card">
-                    <h2 class="chart-title">📊 Структура расходов</h2>
+                    <div class="chart-header">
+                        <h2 class="chart-title" id="pieChartTitle">📊 Структура расходов</h2>
+                        <button id="pieBackBtn" class="pie-back-btn" style="display: none;">← Все категории</button>
+                    </div>
                     <div class="chart-container">
                         <canvas id="pieChart"></canvas>
                     </div>
