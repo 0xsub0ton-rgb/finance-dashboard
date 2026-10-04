@@ -70,6 +70,18 @@ MONTHS_DATA["2026-10"] = {
                 { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 4200, "comment": "" }
             ],
             "total": 622600
+        },
+        {
+            "date": "2026-10-04",
+            "items": [
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 20000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 22000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 20000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 10000, "comment": "" }
+            ],
+            "total": 77000
         }
     ],
     "categories": {
