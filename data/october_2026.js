@@ -97,6 +97,20 @@ MONTHS_DATA["2026-10"] = {
                 { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" }
             ],
             "total": 437000
+        },
+        {
+            "date": "2026-10-06",
+            "items": [
+                { "category": "education", "icon": "🎓", "name": "Книга", "amount": 38000, "comment": "обучение" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 15000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 25000, "comment": "" },
+                { "category": "education", "icon": "🎓", "name": "Канцелярия", "amount": 28000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 25000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 6000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 20000, "comment": "" }
+            ],
+            "total": 174000
         }
     ],
     "categories": {
