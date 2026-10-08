@@ -5,12 +5,13 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-10"] = {
     "month": "Октябрь 2026",
     "currency": {
-        "usd_to_vnd": 25855,
+        "usd_to_vnd": 26036,
         "converted": [
-            { "usd": 87.5, "vnd": 2262275, "rate": 25855, "date": "2026-10-01" }
+            { "usd": 87.5, "vnd": 2262275, "rate": 25855, "date": "2026-10-01" },
+            { "usd": 500, "vnd": 13018000, "rate": 26036, "date": "2026-10-08" }
         ],
-        "total_usd": 87.5,
-        "total_vnd": 2262275
+        "total_usd": 587.5,
+        "total_vnd": 15280275
     },
     "expenses": [
         {
@@ -123,6 +124,21 @@ MONTHS_DATA["2026-10"] = {
                 { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" }
             ],
             "total": 127000
+        },
+        {
+            "date": "2026-10-08",
+            "items": [
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 17000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 17000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 18000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Стаф", "amount": 706877, "comment": "$27.15" },
+                { "category": "visa", "icon": "🛂", "name": "Виза-ран", "amount": 2603600, "comment": "100 USD", "oneTime": true },
+                { "category": "rent", "icon": "🏠", "name": "Аренда квартиры", "amount": 8000000, "comment": "Аренда", "oneTime": true },
+                { "category": "rent", "icon": "🏠", "name": "Коммуналка", "amount": 1130000, "comment": "Коммуналка", "oneTime": true },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 20000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 10000, "comment": "" }
+            ],
+            "total": 12522477
         }
     ],
     "categories": {
@@ -161,6 +177,6 @@ MONTHS_DATA["2026-10"] = {
         "clothing": { "icon": "👟", "name": "Одежда", "color": "#AB47BC" },
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
-    "income": { "monthly": 87.5, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-10-03"
+    "income": { "monthly": 1000, "currency": "USD", "additional_vnd": 0 },
+    "lastUpdated": "2026-10-08"
 };
