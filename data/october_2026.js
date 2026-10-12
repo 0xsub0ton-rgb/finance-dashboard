@@ -194,9 +194,10 @@ MONTHS_DATA["2026-10"] = {
                 { "category": "health", "icon": "❤️", "name": "Стоматолог", "amount": 1550000, "comment": "Стоматология", "oneTime": true },
                 { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" },
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 16000, "comment": "" },
-                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 8000, "comment": "" }
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 8000, "comment": "" },
+                { "category": "energydrink", "icon": "⚡", "name": "Энергетик", "amount": 10000, "comment": "" }
             ],
-            "total": 1668000
+            "total": 1678000
         }
     ],
     "categories": {
