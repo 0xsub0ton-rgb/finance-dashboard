@@ -15,7 +15,7 @@ class ExpenseDashboard {
                 name: 'Еда и продукты',
                 icon: '🍽️',
                 color: '#FF6384',
-                subcategories: ['food', 'fruits', 'milk']
+                subcategories: ['food', 'fruits', 'milk', 'food_out']
             },
             drinks_group: {
                 id: 'drinks_group',
