@@ -339,6 +339,24 @@ MONTHS_DATA["2026-10"] = {
                 { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 18000, "comment": "" }
             ],
             "total": 94000
+        },
+        {
+            "date": "2026-10-23",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 25000, "comment": "" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 16000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Такси", "amount": 80000, "comment": "" },
+                { "category": "health", "icon": "❤️", "name": "Визит в больницу", "amount": 925400, "comment": "", "oneTime": true },
+                { "category": "food_out", "icon": "🍜", "name": "Еда вне дома", "amount": 18000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 6000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 11000, "comment": "" },
+                { "category": "coffee", "icon": "☕", "name": "Кофейня", "amount": 17000, "comment": "" },
+                { "category": "water", "icon": "💧", "name": "Вода", "amount": 30000, "comment": "" },
+                { "category": "milk", "icon": "🥛", "name": "Молоко", "amount": 31200, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 10000, "comment": "" }
+            ],
+            "total": 1185100
         }
     ],
     "categories": {
@@ -379,5 +397,5 @@ MONTHS_DATA["2026-10"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1000, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-10-22"
+    "lastUpdated": "2026-10-23"
 };
