@@ -383,6 +383,21 @@ MONTHS_DATA["2026-10"] = {
                 { "category": "food_out", "icon": "🍜", "name": "Еда вне дома", "amount": 45000, "comment": "" }
             ],
             "total": 186800
+        },
+        {
+            "date": "2026-10-26",
+            "items": [
+                { "category": "coffee", "icon": "☕", "name": "Кофе", "amount": 34000, "comment": "" },
+                { "category": "food_out", "icon": "🍜", "name": "Еда вне дома", "amount": 18000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 11000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 6000, "comment": "" },
+                { "category": "transport", "icon": "🚕", "name": "Подписка Grab", "amount": 28296, "comment": "$1.09" },
+                { "category": "habits", "icon": "🚬", "name": "Сиги", "amount": 16000, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 4000, "comment": "" },
+                { "category": "energy", "icon": "🥤", "name": "Напиток", "amount": 15500, "comment": "" },
+                { "category": "food", "icon": "🍽️", "name": "Еда", "amount": 12000, "comment": "" }
+            ],
+            "total": 144796
         }
     ],
     "categories": {
@@ -423,5 +438,5 @@ MONTHS_DATA["2026-10"] = {
         "debt": { "icon": "💸", "name": "Долги", "color": "#78909C" }
     },
     "income": { "monthly": 1000, "currency": "USD", "additional_vnd": 0 },
-    "lastUpdated": "2026-10-25"
+    "lastUpdated": "2026-10-26"
 };
