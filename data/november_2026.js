@@ -533,9 +533,44 @@ MONTHS_DATA["2026-11"] = {
                     "amount": 1140000,
                     "comment": "Коммуналка",
                     "oneTime": true
+                },
+                {
+                    "category": "tea",
+                    "icon": "🍵",
+                    "name": "Чай",
+                    "amount": 300000,
+                    "comment": ""
+                },
+                {
+                    "category": "energydrink",
+                    "icon": "⚡",
+                    "name": "Энергетик",
+                    "amount": 10000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 18000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 30000,
+                    "comment": ""
+                },
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Напиток",
+                    "amount": 10000,
+                    "comment": ""
                 }
             ],
-            "total": 9206800
+            "total": 9574800
         }
     ],
     "categories": {
