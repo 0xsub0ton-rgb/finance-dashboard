@@ -571,6 +571,61 @@ MONTHS_DATA["2026-11"] = {
                 }
             ],
             "total": 9574800
+        },
+        {
+            "date": "2026-11-09",
+            "items": [
+                {
+                    "category": "laundry",
+                    "icon": "🪴",
+                    "name": "Растение в дом",
+                    "amount": 15000,
+                    "comment": ""
+                },
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофейня",
+                    "amount": 17000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 16000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 60000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Быт",
+                    "amount": 39500,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 12000,
+                    "comment": ""
+                },
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Напиток",
+                    "amount": 15500,
+                    "comment": ""
+                }
+            ],
+            "total": 175000
         }
     ],
     "categories": {
@@ -755,5 +810,5 @@ MONTHS_DATA["2026-11"] = {
         "currency": "USD",
         "additional_vnd": 0
     },
-    "lastUpdated": "2026-11-08"
+    "lastUpdated": "2026-11-09"
 };
