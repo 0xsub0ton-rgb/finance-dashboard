@@ -626,6 +626,103 @@ MONTHS_DATA["2026-11"] = {
                 }
             ],
             "total": 175000
+        },
+        {
+            "date": "2026-11-10",
+            "items": [
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофейня",
+                    "amount": 17000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 16000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Стирка",
+                    "amount": 15000,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 9200,
+                    "comment": ""
+                },
+                {
+                    "category": "energydrink",
+                    "icon": "⚡",
+                    "name": "Энергетик",
+                    "amount": 12200,
+                    "comment": ""
+                },
+                {
+                    "category": "fruits",
+                    "icon": "🍎",
+                    "name": "Фрукты",
+                    "amount": 19400,
+                    "comment": ""
+                },
+                {
+                    "category": "energydrink",
+                    "icon": "⚡",
+                    "name": "Энергетик",
+                    "amount": 10000,
+                    "comment": ""
+                },
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофейня",
+                    "amount": 18000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🪴",
+                    "name": "Растения",
+                    "amount": 90000,
+                    "comment": ""
+                },
+                {
+                    "category": "health",
+                    "icon": "❤️",
+                    "name": "Лекарства",
+                    "amount": 280000,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 4000,
+                    "comment": ""
+                },
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Напиток",
+                    "amount": 24000,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 10000,
+                    "comment": ""
+                }
+            ],
+            "total": 524800
         }
     ],
     "categories": {
@@ -810,5 +907,5 @@ MONTHS_DATA["2026-11"] = {
         "currency": "USD",
         "additional_vnd": 0
     },
-    "lastUpdated": "2026-11-09"
+    "lastUpdated": "2026-11-10"
 };
