@@ -723,6 +723,103 @@ MONTHS_DATA["2026-11"] = {
                 }
             ],
             "total": 524800
+        },
+        {
+            "date": "2026-11-11",
+            "items": [
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофейня",
+                    "amount": 17000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 16000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 35000,
+                    "comment": ""
+                },
+                {
+                    "category": "education",
+                    "icon": "🎓",
+                    "name": "Обучение",
+                    "amount": 50000,
+                    "comment": ""
+                },
+                {
+                    "category": "energydrink",
+                    "icon": "⚡",
+                    "name": "Энергетик",
+                    "amount": 21800,
+                    "comment": ""
+                },
+                {
+                    "category": "education",
+                    "icon": "🎓",
+                    "name": "Обучение",
+                    "amount": 69000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Быт",
+                    "amount": 86000,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 99000,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 20000,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 106000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Быт",
+                    "amount": 59000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Быт",
+                    "amount": 1500,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Быт",
+                    "amount": 42600,
+                    "comment": ""
+                }
+            ],
+            "total": 622900
         }
     ],
     "categories": {
@@ -907,5 +1004,5 @@ MONTHS_DATA["2026-11"] = {
         "currency": "USD",
         "additional_vnd": 0
     },
-    "lastUpdated": "2026-11-10"
+    "lastUpdated": "2026-11-11"
 };
