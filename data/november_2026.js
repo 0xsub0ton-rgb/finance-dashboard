@@ -5,10 +5,17 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-11"] = {
     "month": "Ноябрь 2026",
     "currency": {
-        "usd_to_vnd": 25960,
-        "converted": [],
-        "total_usd": 0,
-        "total_vnd": 0
+        "usd_to_vnd": 25836,
+        "converted": [
+            {
+                "usd": 100,
+                "vnd": 2583600,
+                "rate": 25836,
+                "date": "2026-11-12"
+            }
+        ],
+        "total_usd": 100,
+        "total_vnd": 2583600
     },
     "expenses": [
         {
@@ -820,6 +827,138 @@ MONTHS_DATA["2026-11"] = {
                 }
             ],
             "total": 622900
+        },
+        {
+            "date": "2026-11-12",
+            "items": [
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 18000,
+                    "comment": ""
+                },
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофейня",
+                    "amount": 17000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 18000,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 4500,
+                    "comment": ""
+                },
+                {
+                    "category": "health",
+                    "icon": "❤️",
+                    "name": "Здоровье",
+                    "amount": 26000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 10000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Быт",
+                    "amount": 7500,
+                    "comment": ""
+                },
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофе",
+                    "amount": 80000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 92000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 10000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 15000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 15000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 15000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 17000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Стаф",
+                    "amount": 1100000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Стаф",
+                    "amount": 227000,
+                    "comment": "80к+59к+88к"
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Стаф",
+                    "amount": 140000,
+                    "comment": "65к+75к"
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 18000,
+                    "comment": ""
+                }
+            ],
+            "total": 1830000
         }
     ],
     "categories": {
@@ -1004,5 +1143,5 @@ MONTHS_DATA["2026-11"] = {
         "currency": "USD",
         "additional_vnd": 0
     },
-    "lastUpdated": "2026-11-11"
+    "lastUpdated": "2026-11-12"
 };
