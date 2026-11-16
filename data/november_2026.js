@@ -959,6 +959,136 @@ MONTHS_DATA["2026-11"] = {
                 }
             ],
             "total": 1830000
+        },
+        {
+            "date": "2026-11-13",
+            "items": [
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 39000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 35000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 42000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 30000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 18000,
+                    "comment": ""
+                }
+            ],
+            "total": 164000
+        },
+        {
+            "date": "2026-11-14",
+            "items": [
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофе",
+                    "amount": 34000,
+                    "comment": ""
+                },
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Напиток",
+                    "amount": 15000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 35000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Стаф",
+                    "amount": 740000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 132000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 30000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 18000,
+                    "comment": ""
+                }
+            ],
+            "total": 1004000
+        },
+        {
+            "date": "2026-11-15",
+            "items": [
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 28000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 28000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 45000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 15000,
+                    "comment": ""
+                }
+            ],
+            "total": 116000
         }
     ],
     "categories": {
@@ -1143,5 +1273,5 @@ MONTHS_DATA["2026-11"] = {
         "currency": "USD",
         "additional_vnd": 0
     },
-    "lastUpdated": "2026-11-12"
+    "lastUpdated": "2026-11-15"
 };
