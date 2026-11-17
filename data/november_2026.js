@@ -1165,6 +1165,82 @@ MONTHS_DATA["2026-11"] = {
                 }
             ],
             "total": 239000
+        },
+        {
+            "date": "2026-11-17",
+            "items": [
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 36000,
+                    "comment": ""
+                },
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофейня",
+                    "amount": 34000,
+                    "comment": ""
+                },
+                {
+                    "category": "energydrink",
+                    "icon": "⚡",
+                    "name": "Энергетик",
+                    "amount": 42000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 12000,
+                    "comment": ""
+                },
+                {
+                    "category": "haircut",
+                    "icon": "💇",
+                    "name": "Стрижка",
+                    "amount": 300000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 35000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Быт",
+                    "amount": 3000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 58000,
+                    "comment": ""
+                },
+                {
+                    "category": "gifts",
+                    "icon": "💝",
+                    "name": "Подарки",
+                    "amount": 125000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 65000,
+                    "comment": ""
+                }
+            ],
+            "total": 710000
         }
     ],
     "categories": {
@@ -1349,5 +1425,5 @@ MONTHS_DATA["2026-11"] = {
         "currency": "USD",
         "additional_vnd": 0
     },
-    "lastUpdated": "2026-11-16"
+    "lastUpdated": "2026-11-17"
 };
