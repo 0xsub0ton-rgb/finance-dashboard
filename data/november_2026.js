@@ -1379,6 +1379,103 @@ MONTHS_DATA["2026-11"] = {
                 }
             ],
             "total": 994459
+        },
+        {
+            "date": "2026-11-19",
+            "items": [
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси (TH)",
+                    "amount": 189100,
+                    "comment": "$7.27"
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Стаф (TH)",
+                    "amount": 228897,
+                    "comment": "$8.80"
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко (TH)",
+                    "amount": 85836,
+                    "comment": "$3.30"
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома (TH)",
+                    "amount": 205487,
+                    "comment": "$7.90"
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко (TH)",
+                    "amount": 38539,
+                    "comment": "51 THB ($1.48)"
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко (TH)",
+                    "amount": 38539,
+                    "comment": "51 THB ($1.48)"
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко (TH)",
+                    "amount": 24937,
+                    "comment": "33 THB ($0.96)"
+                },
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Напиток (TH)",
+                    "amount": 24181,
+                    "comment": "32 THB ($0.93)"
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда (TH)",
+                    "amount": 37784,
+                    "comment": "50 THB ($1.45)"
+                },
+                {
+                    "category": "energydrink",
+                    "icon": "⚡",
+                    "name": "Энергетик (TH)",
+                    "amount": 15113,
+                    "comment": "20 THB ($0.58)"
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда (TH)",
+                    "amount": 52897,
+                    "comment": "70 THB ($2.03)"
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Быт (TH)",
+                    "amount": 15113,
+                    "comment": "20 THB ($0.58)"
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси (TH)",
+                    "amount": 145401,
+                    "comment": "$5.59"
+                }
+            ],
+            "total": 1101824
         }
     ],
     "categories": {
@@ -1563,5 +1660,5 @@ MONTHS_DATA["2026-11"] = {
         "currency": "USD",
         "additional_vnd": 0
     },
-    "lastUpdated": "2026-11-18"
+    "lastUpdated": "2026-11-19"
 };
