@@ -5,17 +5,23 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-11"] = {
     "month": "Ноябрь 2026",
     "currency": {
-        "usd_to_vnd": 25836,
+        "usd_to_vnd": 26011,
         "converted": [
             {
                 "usd": 100,
                 "vnd": 2583600,
                 "rate": 25836,
                 "date": "2026-11-12"
+            },
+            {
+                "usd": 100,
+                "vnd": 2601100,
+                "rate": 26011,
+                "date": "2026-11-18"
             }
         ],
-        "total_usd": 100,
-        "total_vnd": 2583600
+        "total_usd": 200,
+        "total_vnd": 5184700
     },
     "expenses": [
         {
@@ -1241,6 +1247,68 @@ MONTHS_DATA["2026-11"] = {
                 }
             ],
             "total": 710000
+        },
+        {
+            "date": "2026-11-18",
+            "items": [
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 36000,
+                    "comment": ""
+                },
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофейня",
+                    "amount": 34000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Стирка",
+                    "amount": 18000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 90000,
+                    "comment": ""
+                },
+                {
+                    "category": "energydrink",
+                    "icon": "⚡",
+                    "name": "Энергетик",
+                    "amount": 13900,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 25000,
+                    "comment": ""
+                },
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Напиток",
+                    "amount": 100000,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 20000,
+                    "comment": ""
+                }
+            ],
+            "total": 336900
         }
     ],
     "categories": {
@@ -1425,5 +1493,5 @@ MONTHS_DATA["2026-11"] = {
         "currency": "USD",
         "additional_vnd": 0
     },
-    "lastUpdated": "2026-11-17"
+    "lastUpdated": "2026-11-18"
 };
