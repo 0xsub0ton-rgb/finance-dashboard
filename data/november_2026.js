@@ -1645,9 +1645,72 @@ MONTHS_DATA["2026-11"] = {
                     "name": "Алко (TH)",
                     "amount": 32514,
                     "comment": "$1.25"
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 40000,
+                    "comment": ""
+                },
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Напиток",
+                    "amount": 16136,
+                    "comment": "15.5к ($0.62)"
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 42474,
+                    "comment": "40.8к ($1.63)"
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 35915,
+                    "comment": "34.5к ($1.38)"
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 36540,
+                    "comment": "35.1к ($1.40)"
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 18114,
+                    "comment": "17.4к ($0.70)"
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 9994,
+                    "comment": "9.6к ($0.38)"
+                },
+                {
+                    "category": "milk",
+                    "icon": "🥛",
+                    "name": "Молоко",
+                    "amount": 27587,
+                    "comment": "26.5к ($1.06)"
+                },
+                {
+                    "category": "fruits",
+                    "icon": "🍎",
+                    "name": "Фрукты",
+                    "amount": 21849,
+                    "comment": "$0.84"
                 }
             ],
-            "total": 122252
+            "total": 370861
         }
     ],
     "categories": {
