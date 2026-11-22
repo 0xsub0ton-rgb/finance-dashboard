@@ -1614,6 +1614,40 @@ MONTHS_DATA["2026-11"] = {
                 }
             ],
             "total": 1375461
+        },
+        {
+            "date": "2026-11-22",
+            "items": [
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Напиток (TH)",
+                    "amount": 29234,
+                    "comment": "36 THB ($1.12)"
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко (TH)",
+                    "amount": 37354,
+                    "comment": "46 THB ($1.44)"
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси (TH)",
+                    "amount": 23150,
+                    "comment": "$0.89"
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко (TH)",
+                    "amount": 32514,
+                    "comment": "$1.25"
+                }
+            ],
+            "total": 122252
         }
     ],
     "categories": {
@@ -1798,5 +1832,5 @@ MONTHS_DATA["2026-11"] = {
         "currency": "USD",
         "additional_vnd": 0
     },
-    "lastUpdated": "2026-11-21"
+    "lastUpdated": "2026-11-22"
 };
