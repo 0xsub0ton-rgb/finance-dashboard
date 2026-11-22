@@ -1891,9 +1891,10 @@ MONTHS_DATA["2026-11"] = {
         }
     },
     "income": {
-        "monthly": 0,
+        "monthly": 1064.33,
         "currency": "USD",
-        "additional_vnd": 0
+        "additional_vnd": 0,
+        "comment": "$1011.81 + $52.52"
     },
     "lastUpdated": "2026-11-22"
 };
