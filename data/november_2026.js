@@ -1969,9 +1969,23 @@ MONTHS_DATA["2026-11"] = {
                     "name": "Еда",
                     "amount": 12000,
                     "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 45000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 35000,
+                    "comment": ""
                 }
             ],
-            "total": 231500
+            "total": 311500
         }
     ],
     "categories": {
