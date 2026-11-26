@@ -5,7 +5,7 @@ if (typeof MONTHS_DATA === 'undefined') var MONTHS_DATA = {};
 MONTHS_DATA["2026-11"] = {
     "month": "Ноябрь 2026",
     "currency": {
-        "usd_to_vnd": 26011,
+        "usd_to_vnd": 26401,
         "converted": [
             {
                 "usd": 100,
@@ -18,10 +18,16 @@ MONTHS_DATA["2026-11"] = {
                 "vnd": 2601100,
                 "rate": 26011,
                 "date": "2026-11-18"
+            },
+            {
+                "usd": 133,
+                "vnd": 3511342,
+                "rate": 26401,
+                "date": "2026-11-25"
             }
         ],
-        "total_usd": 200,
-        "total_vnd": 5184700
+        "total_usd": 333,
+        "total_vnd": 8696042
     },
     "expenses": [
         {
@@ -1711,6 +1717,247 @@ MONTHS_DATA["2026-11"] = {
                 }
             ],
             "total": 370861
+        },
+        {
+            "date": "2026-11-23",
+            "items": [
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 20000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 18000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 15346,
+                    "comment": "$0.59"
+                },
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофейня",
+                    "amount": 34000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 18000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 20000,
+                    "comment": ""
+                },
+                {
+                    "category": "health",
+                    "icon": "❤️",
+                    "name": "Лекарства",
+                    "amount": 280000,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Стирка",
+                    "amount": 70000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 30000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Стаф",
+                    "amount": 870000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 88000,
+                    "comment": ""
+                }
+            ],
+            "total": 1463346
+        },
+        {
+            "date": "2026-11-24",
+            "items": [
+                {
+                    "category": "energydrink",
+                    "icon": "⚡",
+                    "name": "Энергетик",
+                    "amount": 20000,
+                    "comment": ""
+                },
+                {
+                    "category": "transport",
+                    "icon": "🚕",
+                    "name": "Такси",
+                    "amount": 10000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Стаф",
+                    "amount": 720000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 88000,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 4000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 18000,
+                    "comment": ""
+                }
+            ],
+            "total": 860000
+        },
+        {
+            "date": "2026-11-25",
+            "items": [
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 88000,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 3400,
+                    "comment": ""
+                },
+                {
+                    "category": "food",
+                    "icon": "🍽️",
+                    "name": "Еда",
+                    "amount": 18600,
+                    "comment": ""
+                },
+                {
+                    "category": "laundry",
+                    "icon": "🧺",
+                    "name": "Быт",
+                    "amount": 32500,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 35000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 61000,
+                    "comment": ""
+                },
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Напиток",
+                    "amount": 10000,
+                    "comment": ""
+                }
+            ],
+            "total": 248500
+        },
+        {
+            "date": "2026-11-26",
+            "items": [
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 36000,
+                    "comment": ""
+                },
+                {
+                    "category": "coffee",
+                    "icon": "☕",
+                    "name": "Кофе",
+                    "amount": 34000,
+                    "comment": ""
+                },
+                {
+                    "category": "energy",
+                    "icon": "🥤",
+                    "name": "Напиток",
+                    "amount": 15500,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🚬",
+                    "name": "Сиги",
+                    "amount": 18000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 28000,
+                    "comment": ""
+                },
+                {
+                    "category": "habits",
+                    "icon": "🍺",
+                    "name": "Алко",
+                    "amount": 25000,
+                    "comment": ""
+                },
+                {
+                    "category": "food_out",
+                    "icon": "🍜",
+                    "name": "Еда вне дома",
+                    "amount": 35000,
+                    "comment": ""
+                }
+            ],
+            "total": 191500
         }
     ],
     "categories": {
@@ -1896,5 +2143,5 @@ MONTHS_DATA["2026-11"] = {
         "additional_vnd": 0,
         "comment": "$1011.81 + $52.52"
     },
-    "lastUpdated": "2026-11-22"
+    "lastUpdated": "2026-11-26"
 };
